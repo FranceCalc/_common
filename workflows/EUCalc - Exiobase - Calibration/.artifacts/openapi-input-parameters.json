@@ -1,0 +1,12 @@
+
+{
+    "type":"object",
+    "properties":{
+        "string-input-4":{
+            "type":"string",
+            "default":"Water.*",
+            "description":"Enter product pattern (REGEX) to select the products you want to keep",
+            "example":"Water.*"
+        }
+    }
+}

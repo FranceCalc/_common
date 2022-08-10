@@ -1,0 +1,29 @@
+## KNIME files
+.knimeLock
+.project
+.savedWithData
+workflowset.meta
+ 
+## KNIME directories containing node data
+internal/
+port_*/
+.metadata/
+internalTables/
+output/
+_backup/
+temp/
+modules/
+Example Workflows/
+ 
+## Python package files
+*.pyc
+
+# Packages #
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip

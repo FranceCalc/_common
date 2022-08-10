@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack">
+<config key="Variable_0">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="error"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="['passenger_LDV-new_technology-share', 'freight_modal-share']"/>
+</config>
+</config>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="sourceCode" type="xstring" value="# Do pandas inner join%%00010# output_table = input_table_1.join(input_table_2, how='inner', lsuffix=' (left)', rsuffix=' (right)')%%00010%%00010output_table = input_table_2.copy()%%00010baseyear = int(flow_variables['baseyear'])%%00010flow_variables['error'] = []%%00010%%00010# loop through the years%%00010for i in input_table_1['Years'].unique():%%00010    # if the year appears in the index, do the calculation%%00010    if int(i) &gt;= baseyear:%%00010%%00009    mask_year = input_table_1[&quot;Years&quot;] == i%%00010%%00009    for country in input_table_1['Country'].unique():%%00010    %%00009%%00009mask_country = input_table_1[&quot;Country&quot;] == country%%00010%%00009    %%00009for index, row in input_table_2.iterrows():%%00010    %%00009%%00009%%00009list_columns = row['columns']%%00010    %%00009%%00009%%00009target = row['value']%%00010    %%00009%%00009%%00009value = input_table_1.loc[mask_year&amp;mask_country,list_columns].sum().sum()%%00010    %%00009%%00009%%00009if abs(value) &gt; abs(target)*(1+flow_variables['sensitivity']) or abs(value) &lt; abs(target)*(1-flow_variables['sensitivity']):%%00010%%00009    %%00009%%00009%%00009output_table.loc[index, i + &quot;_&quot; + country] = value%%00010%%00009    %%00009%%00009%%00009if row['data_grouping'] not in flow_variables['error']:%%00010%%00009    %%00009%%00009%%00009%%00009flow_variables['error'].append(row['data_grouping'])"/>
+<entry key="rowLimit" type="xint" value="1000"/>
+<entry key="pythonVersionOption" type="xstring" value="PYTHON3"/>
+<entry key="convertMissingToPython" type="xboolean" value="false"/>
+<entry key="convertMissingFromPython" type="xboolean" value="false"/>
+<entry key="sentinelOption" type="xstring" value="MIN_VAL"/>
+<entry key="sentinelValue" type="xint" value="0"/>
+<entry key="chunkSize" type="xint" value="500000"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="IDLE"/>
+<entry key="factory" type="xstring" value="org.knime.python2.nodes.script2in1out.Python2Script2In1OutNodeFactory"/>
+<entry key="node-name" type="xstring" value="Python Script (2⇒1)"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Python nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.python2.nodes"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.6.1.v201808311614"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Python Integration"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.python2.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.6.2.v201811051558"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Python Script (2⇒1)"/>
+<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+</config>
+</config>

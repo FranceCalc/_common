@@ -1,0 +1,921 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack">
+<config key="Variable_0">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="RowID"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value=""/>
+</config>
+<config key="Variable_1">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="6000"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_2">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="5200"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_3">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="5100"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_4">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="55432"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_5">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="7100"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_6">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="7200"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_7">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="5550"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_8">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="5548"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_9">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="5549"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_10">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="5547"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_11">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="5546"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_12">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="55431"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_13">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="5542"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_14">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="5544"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_15">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="5541"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_16">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="5534"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_17">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="5532"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_18">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="5535"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_19">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="5520"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_20">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="5510"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_21">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="5500"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_22">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="4240"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_23">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="4230"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_24">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="4220"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_25">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="4210"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_26">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="4100"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_27">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="4000"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_28">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="3295"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_29">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="3286"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_30">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="3285"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_31">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="3283"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_32">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="3282"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_33">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="3281"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_34">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="3270A"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_35">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="3260"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_36">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="3250"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_37">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="3244"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_38">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="3247"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_39">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="3246"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_40">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="3235"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_41">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="3234"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_42">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="3220"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_43">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="3215"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_44">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="3214"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_45">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="3193"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_46">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="3192"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_47">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="3191"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_48">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="3106"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_49">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="3105"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_50">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="3000"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_51">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="2410"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_52">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="2330"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_53">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="2310"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_54">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="2230"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_55">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="2130"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_56">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="2122"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_57">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="2121"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_58">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="2112"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_59">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="2210"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_60">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="2118"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_61">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="2117"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_62">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="2116"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_63">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="2115"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_64">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="2000"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_65">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="0000"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_66">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="year"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_67">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="country"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_68">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col3"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_69">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col2"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_70">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col1"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_71">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="unit"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_72">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="RowID"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Row0"/>
+</config>
+<config key="Variable_73">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="6000"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Electricity"/>
+</config>
+<config key="Variable_74">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="5200"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Derived heat"/>
+</config>
+<config key="Variable_75">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="5100"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Nuclear heat"/>
+</config>
+<config key="Variable_76">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="55432"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Municial wastes (non-ren.)"/>
+</config>
+<config key="Variable_77">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="7100"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Industrial wastes"/>
+</config>
+<config key="Variable_78">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="7200"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Wastes (non ren.)"/>
+</config>
+<config key="Variable_79">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="5550"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Geo-thermal"/>
+</config>
+<config key="Variable_80">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="5548"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Other liquid biofuels"/>
+</config>
+<config key="Variable_81">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="5549"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Bio jet kerosene"/>
+</config>
+<config key="Variable_82">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="5547"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Biodiesel"/>
+</config>
+<config key="Variable_83">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="5546"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Bio gasoline"/>
+</config>
+<config key="Variable_84">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="55431"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Municipal wastes (renew.)"/>
+</config>
+<config key="Variable_85">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="5542"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Biogas (all)"/>
+</config>
+<config key="Variable_86">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="5544"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Charcoal"/>
+</config>
+<config key="Variable_87">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="5541"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Solid biomass"/>
+</config>
+<config key="Variable_88">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="5534"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Solar PV"/>
+</config>
+<config key="Variable_89">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="5532"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Solar thermal"/>
+</config>
+<config key="Variable_90">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="5535"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Tide, wave and ocean"/>
+</config>
+<config key="Variable_91">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="5520"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Wind power"/>
+</config>
+<config key="Variable_92">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="5510"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Hydro power"/>
+</config>
+<config key="Variable_93">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="5500"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Total Renewables"/>
+</config>
+<config key="Variable_94">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="4240"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Other recovered gas"/>
+</config>
+<config key="Variable_95">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="4230"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Gasworks gas"/>
+</config>
+<config key="Variable_96">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="4220"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Blast furnace gas"/>
+</config>
+<config key="Variable_97">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="4210"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Coke oven gas "/>
+</config>
+<config key="Variable_98">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="4100"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Natural gas"/>
+</config>
+<config key="Variable_99">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="4000"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Gas"/>
+</config>
+<config key="Variable_100">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="3295"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Other Products"/>
+</config>
+<config key="Variable_101">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="3286"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Paraffin Waxes"/>
+</config>
+<config key="Variable_102">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="3285"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Petroleum Coke"/>
+</config>
+<config key="Variable_103">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="3283"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Bitumen"/>
+</config>
+<config key="Variable_104">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="3282"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Lubricants"/>
+</config>
+<config key="Variable_105">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="3281"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="White spirit and SBP"/>
+</config>
+<config key="Variable_106">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="3270A"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Fuel Oil"/>
+</config>
+<config key="Variable_107">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="3260"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Gas/Diesel Oil (w/o bio)"/>
+</config>
+<config key="Variable_108">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="3250"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Naphtha"/>
+</config>
+<config key="Variable_109">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="3244"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Other Kerosene"/>
+</config>
+<config key="Variable_110">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="3247"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Kerosene Type Jet Fuel"/>
+</config>
+<config key="Variable_111">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="3246"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Gasoline Type Jet Fuel"/>
+</config>
+<config key="Variable_112">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="3235"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Aviation Gasoline"/>
+</config>
+<config key="Variable_113">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="3234"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Motor Gasoline (w/o bio)"/>
+</config>
+<config key="Variable_114">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="3220"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="LPG"/>
+</config>
+<config key="Variable_115">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="3215"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Ethane"/>
+</config>
+<config key="Variable_116">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="3214"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Refinery gas"/>
+</config>
+<config key="Variable_117">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="3193"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Other Hydrocarb. (w/o bio)"/>
+</config>
+<config key="Variable_118">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="3192"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Additives / Oxygenates"/>
+</config>
+<config key="Variable_119">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="3191"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Refinery Feedstocks"/>
+</config>
+<config key="Variable_120">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="3106"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Natural Gas Liguids"/>
+</config>
+<config key="Variable_121">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="3105"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Crude oil"/>
+</config>
+<config key="Variable_122">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="3000"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Oil (total)"/>
+</config>
+<config key="Variable_123">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="2410"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Oil shale &amp; oil sands"/>
+</config>
+<config key="Variable_124">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="2330"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Peat products"/>
+</config>
+<config key="Variable_125">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="2310"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Peat"/>
+</config>
+<config key="Variable_126">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="2230"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="BKB"/>
+</config>
+<config key="Variable_127">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="2130"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Coal tar"/>
+</config>
+<config key="Variable_128">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="2122"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Gas coke"/>
+</config>
+<config key="Variable_129">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="2121"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Coke oven coke"/>
+</config>
+<config key="Variable_130">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="2112"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Patent Fuels"/>
+</config>
+<config key="Variable_131">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="2210"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Lignite / Brown Coal"/>
+</config>
+<config key="Variable_132">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="2118"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Sub-bituminous coal"/>
+</config>
+<config key="Variable_133">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="2117"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Other bituminous coal"/>
+</config>
+<config key="Variable_134">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="2116"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Coking coal"/>
+</config>
+<config key="Variable_135">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="2115"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Anthracite"/>
+</config>
+<config key="Variable_136">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="2000"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Solid fuels"/>
+</config>
+<config key="Variable_137">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="0000"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Total all products"/>
+</config>
+<config key="Variable_138">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="year"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="2015"/>
+</config>
+<config key="Variable_139">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="country"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Ukraine"/>
+</config>
+<config key="Variable_140">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col3"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_141">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col2"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_142">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col1"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_143">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="unit"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="ktoe"/>
+</config>
+</config>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="CFG_FAILONMISS_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="CFG_FAILONMISS" type="xstring" value="Use Defaults"/>
+<config key="CFG_Integer_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="CFG_Integer" type="xint" value="0"/>
+<config key="CFG_Double_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_double"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="CFG_Double" type="xdouble" value="0.0"/>
+<config key="CFG_String_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="CFG_String" type="xstring" value="missing"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="IDLE"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.flowvariable.tablerowtovariable.TableToVariableNodeFactory"/>
+<entry key="node-name" type="xstring" value="Table Row to Variable"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.5.2.v201802051350"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Core"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.5.2.v201802051426"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Table Row to Variable"/>
+<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+</config>
+</config>

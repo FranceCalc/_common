@@ -1,0 +1,10 @@
+{
+    "description": "Data for 2007",
+    "name": "exio34_ntnu",
+    "system": "ixi",
+    "version": "v3.4_NTNU",
+    "history": [
+        "20180331 13:28:59 - FILEIO -  Saved exio34_ntnu to \\\\winfil.it.ntnu.no\\EPT_eksperimentell\\indecol\\Projects\\MRIOs\\EXIOBASE3\\EXIOBASE_3_4\\txt\\ixi\\2007",
+        "20180331 13:18:54 - FILEIO -  Parsed EXIO3 from \\\\winfil.it.ntnu.no\\EPT_eksperimentell\\indecol\\Projects\\MRIOs\\EXIOBASE3\\EXIOBASE_3_4\\Matlab structure\\IOT_2007_ixi.mat"
+    ]
+}

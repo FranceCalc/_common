@@ -1,0 +1,81 @@
+
+{
+    "type":"object",
+    "properties":{
+        "multiple-selection-167:131":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"array",
+                    "items":{
+                        "type":"string",
+                        "default":"CO2"
+                    }
+                }
+            },
+            "description":"Enter Description",
+            "example":{
+                "variable_value":[
+                    "CO2",
+                    "N2O",
+                    "CH4"
+                ]
+            }
+        },
+        "multiple-selection-58":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"array",
+                    "items":{
+                        "type":"string",
+                        "default":"N2O"
+                    }
+                }
+            },
+            "description":"Enter Description",
+            "example":{
+                "variable_value":[
+                    "N2O"
+                ]
+            }
+        },
+        "multiple-selection-167:128":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"array",
+                    "items":{
+                        "type":"string",
+                        "default":"CRF3 - Agriculture"
+                    }
+                }
+            },
+            "description":"Enter Description",
+            "example":{
+                "variable_value":[
+                    "CRF3 - Agriculture",
+                    "CRF31 - Livestock"
+                ]
+            }
+        },
+        "multiple-selection-66":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"array",
+                    "items":{
+                        "type":"string",
+                        "default":"CRF2F6 - Other applications of substitutes for ozone depleting substances"
+                    }
+                }
+            },
+            "description":"Enter Description",
+            "example":{
+                "variable_value":[
+                    "CRF2F6 - Other applications of substitutes for ozone depleting substances"
+                ]
+            }
+        }
+    }
+}

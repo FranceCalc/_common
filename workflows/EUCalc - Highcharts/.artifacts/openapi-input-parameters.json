@@ -1,0 +1,60 @@
+
+{
+    "type":"object",
+    "properties":{
+        "column-filter-844:844":{
+            "type":"object",
+            "properties":{
+                "columns":{
+                    "type":"array",
+                    "items":{
+                        "type":"string",
+                        "default":"Country"
+                    }
+                }
+            },
+            "description":"Enter Description",
+            "example":{
+                "columns":[
+                    "Country",
+                    "Years",
+                    "test_value1[unit]",
+                    "test_value2[unit]"
+                ]
+            }
+        },
+        "string-input-844:843":{
+            "type":"string",
+            "default":"Title",
+            "description":"Enter Description",
+            "example":"Title"
+        },
+        "column-filter-842:844":{
+            "type":"object",
+            "properties":{
+                "columns":{
+                    "type":"array",
+                    "items":{
+                        "type":"string",
+                        "default":"Country"
+                    }
+                }
+            },
+            "description":"Enter Description",
+            "example":{
+                "columns":[
+                    "Country",
+                    "Years",
+                    "test_value1[unit]",
+                    "test_value2[unit]"
+                ]
+            }
+        },
+        "string-input-842:843":{
+            "type":"string",
+            "default":"Title",
+            "description":"Enter Description",
+            "example":"Title"
+        }
+    }
+}

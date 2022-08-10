@@ -1,0 +1,465 @@
+
+{
+    "type":"object",
+    "properties":{
+        "single-selection-547:528":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"linear interpolation"
+                }
+            },
+            "description":"Choose the completion method",
+            "example":{
+                "variable_value":"linear interpolation"
+            }
+        },
+        "column-filter-557:1270":{
+            "type":"object",
+            "properties":{
+                "columns":{
+                    "type":"array",
+                    "items":{
+                        "type":"string",
+                        "default":"ots_tra_passenger_vehicle-lifetime_fleet_bus_FCEV[km]"
+                    }
+                }
+            },
+            "description":"This filter is ther for testing purpose. It allows the user to test the regex pattern used in the Pattern section.",
+            "example":{
+                "columns":[
+                    "ots_tra_passenger_vehicle-lifetime_fleet_bus_FCEV[km]"
+                ]
+            }
+        },
+        "column-filter-585:1253":{
+            "type":"object",
+            "properties":{
+                "columns":{
+                    "type":"array"
+                }
+            },
+            "description":"This filter is ther for testing purpose. It allows the user to test the regex pattern used in the Pattern section.",
+            "example":{
+                "columns":[
+                ]
+            }
+        },
+        "column-filter-562:535":{
+            "type":"object",
+            "properties":{
+                "columns":{
+                    "type":"array"
+                }
+            },
+            "description":"Select the columns for data completion",
+            "example":{
+                "columns":[
+                ]
+            }
+        },
+        "single-selection-561:355":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"industry"
+                }
+            },
+            "description":"Module Selection",
+            "example":{
+                "variable_value":"industry"
+            }
+        },
+        "double-input-582:572":{
+            "type":"number",
+            "default":0.0,
+            "description":"Enter Description",
+            "example":0.0
+        },
+        "column-filter-565:526":{
+            "type":"object",
+            "properties":{
+                "columns":{
+                    "type":"array",
+                    "items":{
+                        "type":"string",
+                        "default":"lever_freight_modal-share"
+                    }
+                }
+            },
+            "description":"Enter Description",
+            "example":{
+                "columns":[
+                    "lever_freight_modal-share",
+                    "lever_passenger_modal-share",
+                    "lever_passenger_technology-share_new"
+                ]
+            }
+        },
+        "string-input-585:1245":{
+            "type":"string",
+            "default":"elc_opex_.+",
+            "description":"Enter Description",
+            "example":"elc_opex_.+"
+        },
+        "string-input-585:1246":{
+            "type":"string",
+            "default":"",
+            "description":"Enter Description",
+            "example":""
+        },
+        "string-input-577:1245":{
+            "type":"string",
+            "default":"elc_opex_.+",
+            "description":"Enter Description",
+            "example":"elc_opex_.+"
+        },
+        "column-selection-557:1262":{
+            "type":"object",
+            "properties":{
+                "column":{
+                    "type":"string",
+                    "default":"km"
+                }
+            },
+            "description":"Enter Description",
+            "example":{
+                "column":"km"
+            }
+        },
+        "column-filter-563:526":{
+            "type":"object",
+            "properties":{
+                "columns":{
+                    "type":"array",
+                    "items":{
+                        "type":"string",
+                        "default":"lever_technology-share"
+                    }
+                }
+            },
+            "description":"Enter Description",
+            "example":{
+                "columns":[
+                    "lever_technology-share"
+                ]
+            }
+        },
+        "boolean-input-0:809":{
+            "type":"boolean",
+            "default":"true",
+            "description":"Enter Description",
+            "example":true
+        },
+        "boolean-input-0:808":{
+            "type":"boolean",
+            "default":"true",
+            "description":"Enter Description",
+            "example":true
+        },
+        "string-input-579:843":{
+            "type":"string",
+            "default":"Title",
+            "description":"Enter Description",
+            "example":"Title"
+        },
+        "string-input-584:580":{
+            "type":"string",
+            "default":"fts_tra_freight_modal-share_HDVH[%]",
+            "description":"New Column Name",
+            "example":"fts_tra_freight_modal-share_HDVH[%]"
+        },
+        "boolean-input-561:809":{
+            "type":"boolean",
+            "default":"true",
+            "description":"Enter Description",
+            "example":true
+        },
+        "single-selection-551:523":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"No"
+                }
+            },
+            "description":"Replace negative values by 0",
+            "example":{
+                "variable_value":"No"
+            }
+        },
+        "boolean-input-561:808":{
+            "type":"boolean",
+            "default":"true",
+            "description":"Enter Description",
+            "example":true
+        },
+        "column-selection-577:1255":{
+            "type":"object",
+            "properties":{
+                "column":{
+                    "type":"string",
+                    "default":"From Unit 1"
+                }
+            },
+            "description":"Enter Description",
+            "example":{
+                "column":"From Unit 1"
+            }
+        },
+        "single-selection-551:528":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"linear interpolation"
+                }
+            },
+            "description":"Choose the completion method",
+            "example":{
+                "variable_value":"linear interpolation"
+            }
+        },
+        "single-selection-547:523":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"No"
+                }
+            },
+            "description":"Replace negative values by 0",
+            "example":{
+                "variable_value":"No"
+            }
+        },
+        "single-selection-550:355":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"lifestyle"
+                }
+            },
+            "description":"Module Selection",
+            "example":{
+                "variable_value":"lifestyle"
+            }
+        },
+        "column-filter-551:535":{
+            "type":"object",
+            "properties":{
+                "columns":{
+                    "type":"array"
+                }
+            },
+            "description":"Select the columns for data completion",
+            "example":{
+                "columns":[
+                ]
+            }
+        },
+        "column-filter-547:535":{
+            "type":"object",
+            "properties":{
+                "columns":{
+                    "type":"array"
+                }
+            },
+            "description":"Select the columns for data completion",
+            "example":{
+                "columns":[
+                ]
+            }
+        },
+        "column-selection-557:1255":{
+            "type":"object",
+            "properties":{
+                "column":{
+                    "type":"string",
+                    "default":"km"
+                }
+            },
+            "description":"Enter Description",
+            "example":{
+                "column":"km"
+            }
+        },
+        "single-selection-0:355":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"transport"
+                }
+            },
+            "description":"Module Selection",
+            "example":{
+                "variable_value":"transport"
+            }
+        },
+        "single-selection-562:523":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"No"
+                }
+            },
+            "description":"Replace negative values by 0",
+            "example":{
+                "variable_value":"No"
+            }
+        },
+        "column-filter-552:526":{
+            "type":"object",
+            "properties":{
+                "columns":{
+                    "type":"array",
+                    "items":{
+                        "type":"string",
+                        "default":"lever_freight_load-factor"
+                    }
+                }
+            },
+            "description":"Enter Description",
+            "example":{
+                "columns":[
+                    "lever_freight_load-factor"
+                ]
+            }
+        },
+        "double-input-581:572":{
+            "type":"number",
+            "default":0.03,
+            "description":"Enter Description",
+            "example":0.03
+        },
+        "column-filter-577:1270":{
+            "type":"object",
+            "properties":{
+                "columns":{
+                    "type":"array"
+                }
+            },
+            "description":"This filter is ther for testing purpose. It allows the user to test the regex pattern used in the Pattern section.",
+            "example":{
+                "columns":[
+                ]
+            }
+        },
+        "single-selection-562:528":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"linear interpolation"
+                }
+            },
+            "description":"Choose the completion method",
+            "example":{
+                "variable_value":"linear interpolation"
+            }
+        },
+        "string-input-557:1245":{
+            "type":"string",
+            "default":"ots_tra_passenger_vehicle-lifetime_fleet_bus_FCEV.*",
+            "description":"Enter Description",
+            "example":"ots_tra_passenger_vehicle-lifetime_fleet_bus_FCEV.*"
+        },
+        "boolean-input-550:809":{
+            "type":"boolean",
+            "default":"true",
+            "description":"Enter Description",
+            "example":true
+        },
+        "column-selection-577:1262":{
+            "type":"object",
+            "properties":{
+                "column":{
+                    "type":"string",
+                    "default":"l"
+                }
+            },
+            "description":"Enter Description",
+            "example":{
+                "column":"l"
+            }
+        },
+        "boolean-input-550:808":{
+            "type":"boolean",
+            "default":"true",
+            "description":"Enter Description",
+            "example":true
+        },
+        "double-input-585:1247":{
+            "type":"number",
+            "default":1.0,
+            "description":"Enter Description",
+            "example":1.0
+        },
+        "double-input-584:582":{
+            "type":"number",
+            "default":1.0,
+            "description":"Target value",
+            "example":1.0
+        },
+        "column-filter-579:844":{
+            "type":"object",
+            "properties":{
+                "columns":{
+                    "type":"array",
+                    "items":{
+                        "type":"string",
+                        "default":"Years"
+                    }
+                }
+            },
+            "description":"Enter Description",
+            "example":{
+                "columns":[
+                    "Years",
+                    "Country",
+                    "fts_tra_passenger_technology-share_new_LDV_BEV[%]",
+                    "fts_tra_passenger_technology-share_new_LDV_FCEV[%]",
+                    "fts_tra_passenger_technology-share_new_LDV_ICE-diesel[%]",
+                    "fts_tra_passenger_technology-share_new_LDV_ICE-gas[%]",
+                    "fts_tra_passenger_technology-share_new_LDV_ICE-gasoline[%]",
+                    "fts_tra_passenger_technology-share_new_LDV_PHEV-diesel[%]",
+                    "fts_tra_passenger_technology-share_new_LDV_PHEV-gasoline[%]"
+                ]
+            }
+        },
+        "column-filter-584:581":{
+            "type":"object",
+            "properties":{
+                "columns":{
+                    "type":"array",
+                    "items":{
+                        "type":"string",
+                        "default":"fts_tra_freight_modal-share_HDVL[%]"
+                    }
+                }
+            },
+            "description":"Select columns that need to be completed to reach target value",
+            "example":{
+                "columns":[
+                    "fts_tra_freight_modal-share_HDVL[%]",
+                    "fts_tra_freight_modal-share_HDVM[%]",
+                    "fts_tra_freight_modal-share_IWW[%]",
+                    "fts_tra_freight_modal-share_aviation[%]",
+                    "fts_tra_freight_modal-share_marine[%]",
+                    "fts_tra_freight_modal-share_rail[%]"
+                ]
+            }
+        },
+        "string-input-575:831":{
+            "type":"string",
+            "default":"cp_bld_building_composition",
+            "description":"Name of the contant sheet",
+            "example":"cp_bld_building_composition"
+        }
+    }
+}

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="driver" type="xstring" value="com.mysql.jdbc.Driver"/>
+<entry key="database" type="xstring" value="jdbc:mysql://&lt;host&gt;:&lt;port&gt;/&lt;database_name&gt;"/>
+<entry key="user" type="xstring" value="[Workflows edited with 3.4.1, will not work in older versions]"/>
+<entry key="userName" type="xstring" value=""/>
+<entry key="passwordEncrypted" type="xpassword" value="0168F07456E2496FA29F15BC7D3BC09E95"/>
+<entry key="password" type="xstring" isnull="true" value=""/>
+<entry key="timezone" type="xstring" value="current"/>
+<entry key="validateConnection" type="xboolean" value="false"/>
+<entry key="retrieveMetadataInConfigure" type="xboolean" value="false"/>
+<entry key="allowSpacesInColumnNames" type="xboolean" value="true"/>
+<entry key="rowIdsStartWithZero" type="xboolean" value="false"/>
+<entry key="databaseIdentifier" type="xstring" isnull="true" value=""/>
+<entry key="kerberos" type="xboolean" value="false"/>
+<entry key="knimeVersion" type="xstring" value="3.6.2"/>
+<entry key="table" type="xstring" value="output"/>
+<entry key="append_data" type="xboolean" value="true"/>
+<entry key="insert_null_for_missing_cols" type="xboolean" value="false"/>
+<entry key="fail_on_error" type="xboolean" value="true"/>
+<config key="sql_types">
+<entry key="Country" type="xstring" value="varchar(255)"/>
+<entry key="Years" type="xstring" value="varchar(255)"/>
+<entry key="emissions-CH4[Mt]" type="xstring" value="numeric(30,10)"/>
+<entry key="emissions-CO2[Mt]" type="xstring" value="numeric(30,10)"/>
+<entry key="emissions-CO2e[Mt]" type="xstring" value="numeric(30,10)"/>
+<entry key="emissions-N2O[Mt]" type="xstring" value="numeric(30,10)"/>
+<entry key="energy-consumption[TWh]" type="xstring" value="numeric(30,10)"/>
+<entry key="energy-demand[TWh]" type="xstring" value="numeric(30,10)"/>
+<entry key="energy-gap[TWh]" type="xstring" value="numeric(30,10)"/>
+<entry key="energy-production[GWh]" type="xstring" value="numeric(30,10)"/>
+<entry key="energy-production[TWh]" type="xstring" value="numeric(30,10)"/>
+<entry key="land-use[%]" type="xstring" value="numeric(30,10)"/>
+<entry key="material-production[Mt]" type="xstring" value="numeric(30,10)"/>
+<entry key="modal-share[%]" type="xstring" value="numeric(30,10)"/>
+<entry key="occupancy[pkm/vkm]" type="xstring" value="numeric(30,10)"/>
+<entry key="owned-cars[car/person]" type="xstring" value="numeric(30,10)"/>
+<entry key="primary_vector" type="xstring" value="varchar(255)"/>
+<entry key="product" type="xstring" value="varchar(255)"/>
+<entry key="sector" type="xstring" value="varchar(255)"/>
+<entry key="subsector" type="xstring" value="varchar(255)"/>
+<entry key="technology" type="xstring" value="varchar(255)"/>
+<entry key="technology-share[%]" type="xstring" value="numeric(30,10)"/>
+<entry key="transport-demand[pkm]" type="xstring" value="numeric(30,10)"/>
+<entry key="transport-demand[tkm]" type="xstring" value="numeric(30,10)"/>
+<entry key="vector" type="xstring" value="varchar(255)"/>
+<entry key="veh-efficiency[MJ/pkm]" type="xstring" value="numeric(30,10)"/>
+<entry key="vehicle-fleet[number]" type="xstring" value="numeric(30,10)"/>
+<entry key="lever_pkm" type="xstring" value="integer"/>
+<entry key="lever_passenger_modal-share" type="xstring" value="integer"/>
+<entry key="lever_passenger_occupancy" type="xstring" value="integer"/>
+<entry key="lever_passenger_utilization-rate" type="xstring" value="integer"/>
+<entry key="lever_floor-intensity" type="xstring" value="integer"/>
+<entry key="lever_heatcool-behaviour" type="xstring" value="integer"/>
+<entry key="lever_appliance-use" type="xstring" value="integer"/>
+<entry key="lever_lighting" type="xstring" value="integer"/>
+<entry key="lever_urbpop" type="xstring" value="integer"/>
+<entry key="lever_kcal-req" type="xstring" value="integer"/>
+<entry key="lever_diet" type="xstring" value="integer"/>
+<entry key="lever_paperpack" type="xstring" value="integer"/>
+<entry key="lever_1" type="xstring" value="integer"/>
+<entry key="lever_fwaste" type="xstring" value="integer"/>
+<entry key="lever_datause" type="xstring" value="integer"/>
+<entry key="lever_appliance-own" type="xstring" value="integer"/>
+<entry key="lever_freight_tkm" type="xstring" value="integer"/>
+<entry key="lever_passenger_veh-efficiency_new" type="xstring" value="integer"/>
+<entry key="lever_passenger_technology-share_new" type="xstring" value="integer"/>
+<entry key="lever_freight_vehicle-efficiency_new" type="xstring" value="integer"/>
+<entry key="lever_freight_technology-share_new" type="xstring" value="integer"/>
+<entry key="lever_freight_modal-share" type="xstring" value="integer"/>
+<entry key="lever_freight_load-factor" type="xstring" value="integer"/>
+<entry key="lever_freight_utilization-rate" type="xstring" value="integer"/>
+<entry key="lever_building-insulation" type="xstring" value="integer"/>
+<entry key="lever_district-heating-share" type="xstring" value="integer"/>
+<entry key="lever_heatcool-technology-fuel" type="xstring" value="integer"/>
+<entry key="lever_heatcool-efficiency" type="xstring" value="integer"/>
+<entry key="lever_nonres-floorarea" type="xstring" value="integer"/>
+<entry key="lever_appliance-efficiency" type="xstring" value="integer"/>
+<entry key="lever_material-efficiency" type="xstring" value="integer"/>
+<entry key="lever_material-switch" type="xstring" value="integer"/>
+<entry key="lever_technology-share" type="xstring" value="integer"/>
+<entry key="lever_technology-development" type="xstring" value="integer"/>
+<entry key="lever_energy-carrier-mix" type="xstring" value="integer"/>
+<entry key="lever_cc" type="xstring" value="integer"/>
+<entry key="lever_capacity_fossil" type="xstring" value="integer"/>
+<entry key="lever_ccs" type="xstring" value="integer"/>
+<entry key="lever_capacity_nuclear" type="xstring" value="integer"/>
+<entry key="lever_capacity_RES_wind" type="xstring" value="integer"/>
+<entry key="lever_capacity_RES_solar" type="xstring" value="integer"/>
+<entry key="lever_2" type="xstring" value="integer"/>
+<entry key="lever_capacity_RES_other" type="xstring" value="integer"/>
+<entry key="lever_bal-strat" type="xstring" value="integer"/>
+<entry key="lever_climate-smart-crop" type="xstring" value="integer"/>
+<entry key="lever_climate-smart-fisheries" type="xstring" value="integer"/>
+<entry key="lever_fst-practices" type="xstring" value="integer"/>
+<entry key="lever_alt-protein" type="xstring" value="integer"/>
+<entry key="lever_biomass-hierarchy" type="xstring" value="integer"/>
+<entry key="lever_min-practices" type="xstring" value="integer"/>
+<entry key="lever_land-man" type="xstring" value="integer"/>
+<entry key="lever_climate-smart-livestock" type="xstring" value="integer"/>
+<entry key="lever_3" type="xstring" value="integer"/>
+<entry key="lever_pop" type="xstring" value="integer"/>
+<entry key="lever_household-size" type="xstring" value="integer"/>
+<entry key="lever_food-net-import" type="xstring" value="integer"/>
+<entry key="lever_product-net-import" type="xstring" value="integer"/>
+<entry key="lever_material-net-import" type="xstring" value="integer"/>
+<entry key="lever_7" type="xstring" value="integer"/>
+<entry key="lever_8" type="xstring" value="integer"/>
+<entry key="lever_water-man" type="xstring" value="integer"/>
+<entry key="lever_biodiversity" type="xstring" value="integer"/>
+</config>
+<entry key="batch_size" type="xint" value="1"/>
+</config>
+<config key="variables">
+<config key="table">
+<entry key="used_variable" type="xstring" value="db_table_cube_output"/>
+<entry key="exposed_variable" type="xstring" isnull="true" value=""/>
+</config>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="IDLE"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.io.database.DBWriterNodeFactory"/>
+<entry key="node-name" type="xstring" value="Database Writer"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.6.2.v201811051556"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Core"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.6.2.v201811051556"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Database Writer"/>
+<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports"/>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+</config>
+</config>

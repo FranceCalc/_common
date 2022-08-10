@@ -1,0 +1,70 @@
+category2 EUCalc;sector Switzerland
+choose and define in knime://LOCAL/_common/data/Switzerland/usemap.csv;Economy and households - Total
+choose and define in knime://LOCAL/_common/data/Switzerland/usemap.csv;- Total economy
+choose and define in knime://LOCAL/_common/data/Switzerland/usemap.csv;-- Primary sector
+choose and define in knime://LOCAL/_common/data/Switzerland/usemap.csv;--- 01-03 Agriculture, forestry and fishing
+choose and define in knime://LOCAL/_common/data/Switzerland/usemap.csv;-- Secondary sector
+choose and define in knime://LOCAL/_common/data/Switzerland/usemap.csv;--- 05-09 Mining and quarrying
+choose and define in knime://LOCAL/_common/data/Switzerland/usemap.csv;--- 10-33 Manufacturing
+choose and define in knime://LOCAL/_common/data/Switzerland/usemap.csv;---- 10-12 Manufacture of food products, beverages and tobacco products
+choose and define in knime://LOCAL/_common/data/Switzerland/usemap.csv;---- 13-15 Manufacture of textiles and wearing apparel
+choose and define in knime://LOCAL/_common/data/Switzerland/usemap.csv;---- 16 Manifacture of wood and of products of wood and cork, except furniture
+choose and define in knime://LOCAL/_common/data/Switzerland/usemap.csv;---- 17 Manufature of paper and paper product
+choose and define in knime://LOCAL/_common/data/Switzerland/usemap.csv;---- 18 Printing and reproduction of recorded media
+choose and define in knime://LOCAL/_common/data/Switzerland/usemap.csv;---- 19-20 Manufacture of coke, refined petroleum products, chemicals and chemical products,
+choose and define in knime://LOCAL/_common/data/Switzerland/usemap.csv;---- 21 Manufacture of pharmaceutical products
+choose and define in knime://LOCAL/_common/data/Switzerland/usemap.csv;---- 22 Manufacture of rubber and plastic products
+choose and define in knime://LOCAL/_common/data/Switzerland/usemap.csv;---- 23 Manufacture of other non-metallic mineral products
+choose and define in knime://LOCAL/_common/data/Switzerland/usemap.csv;---- 24 Manufacture of basic metals
+choose and define in knime://LOCAL/_common/data/Switzerland/usemap.csv;---- 25 Manufacture of fabricated metal products
+choose and define in knime://LOCAL/_common/data/Switzerland/usemap.csv;---- 26 Manufacture of computer and electronic products, watchmaking
+choose and define in knime://LOCAL/_common/data/Switzerland/usemap.csv;---- 27 Manifacture of electrical equipment
+choose and define in knime://LOCAL/_common/data/Switzerland/usemap.csv;---- 28 Manifacture of machinery
+choose and define in knime://LOCAL/_common/data/Switzerland/usemap.csv;---- 29 Manifacture of motor vehicles
+choose and define in knime://LOCAL/_common/data/Switzerland/usemap.csv;---- 30 Manifacture of other transport equipment
+choose and define in knime://LOCAL/_common/data/Switzerland/usemap.csv;---- 31 Manufacture of furniture
+choose and define in knime://LOCAL/_common/data/Switzerland/usemap.csv;---- 32 Other manufacturing
+choose and define in knime://LOCAL/_common/data/Switzerland/usemap.csv;---- 33 Repair and installation of machinery and equipment
+choose and define in knime://LOCAL/_common/data/Switzerland/usemap.csv;--- 35 Energy production and distribution
+choose and define in knime://LOCAL/_common/data/Switzerland/usemap.csv;--- 36-39 Water supply, sewerage, waste management and remediation activities,
+choose and define in knime://LOCAL/_common/data/Switzerland/usemap.csv;--- 41-43 Construction
+choose and define in knime://LOCAL/_common/data/Switzerland/usemap.csv;-- Tertiary sector
+choose and define in knime://LOCAL/_common/data/Switzerland/usemap.csv;--- 45-47 Wholesale and retail trade, repair of motor vehicles and motorcycles
+choose and define in knime://LOCAL/_common/data/Switzerland/usemap.csv;---- 45 Wholesale and retail trade and repair of motor vehicles and motorcycles
+choose and define in knime://LOCAL/_common/data/Switzerland/usemap.csv;---- 46 Wholesale trade
+choose and define in knime://LOCAL/_common/data/Switzerland/usemap.csv;---- 47 Retail trade
+choose and define in knime://LOCAL/_common/data/Switzerland/usemap.csv;--- 49-53 Transportation and storage
+choose and define in knime://LOCAL/_common/data/Switzerland/usemap.csv;---- 49-51 Land, water, air and pipeline transport,
+choose and define in knime://LOCAL/_common/data/Switzerland/usemap.csv;---- 52 Warehousing and support activities for transportation
+choose and define in knime://LOCAL/_common/data/Switzerland/usemap.csv;---- 53 Postal and courier activities
+all-uses;--- 55-56 Accommodation and food service activities
+choose and define in knime://LOCAL/_common/data/Switzerland/usemap.csv;---- 55 Accomodation
+choose and define in knime://LOCAL/_common/data/Switzerland/usemap.csv;---- 56 food ans beverage service activities
+choose and define in knime://LOCAL/_common/data/Switzerland/usemap.csv;--- 58-63 Information and communication
+choose and define in knime://LOCAL/_common/data/Switzerland/usemap.csv;---- 58-60 publishing, audio and video production activities
+choose and define in knime://LOCAL/_common/data/Switzerland/usemap.csv;---- 61 Telecommunications
+choose and define in knime://LOCAL/_common/data/Switzerland/usemap.csv;---- 62-63 Computer programming and information service activities
+all-uses;--- 64-66 Financial and insurance activities
+choose and define in knime://LOCAL/_common/data/Switzerland/usemap.csv;---- 64 Financial service activities
+choose and define in knime://LOCAL/_common/data/Switzerland/usemap.csv;---- 65 Insurance services
+all-uses;--- 68-75, 77-82  Scientific, technical and real state activities, administrative activities
+choose and define in knime://LOCAL/_common/data/Switzerland/usemap.csv;---- 68 Real estate activities
+choose and define in knime://LOCAL/_common/data/Switzerland/usemap.csv;---- 69-71 Legal and accounting activities, management, architectural and engineering activities,
+choose and define in knime://LOCAL/_common/data/Switzerland/usemap.csv;---- 72 Scientific research and development
+choose and define in knime://LOCAL/_common/data/Switzerland/usemap.csv;---- 73-75 Other professional, scientific and technical activities
+choose and define in knime://LOCAL/_common/data/Switzerland/usemap.csv;---- 77-82 Administrative and support service activities
+all-uses;--- 84 Public administration
+all-uses;--- 85 Education
+all-uses;--- 86-88 Human health and social work
+choose and define in knime://LOCAL/_common/data/Switzerland/usemap.csv;---- 86 Human health activities
+choose and define in knime://LOCAL/_common/data/Switzerland/usemap.csv;---- 87-88 Residential care activities and social work activities without accommodation
+choose and define in knime://LOCAL/_common/data/Switzerland/usemap.csv;--- 90-96 Arts, entertainment and recreation, other services,
+choose and define in knime://LOCAL/_common/data/Switzerland/usemap.csv;---- 90-93 Creative, arts and entertainment activities
+choose and define in knime://LOCAL/_common/data/Switzerland/usemap.csv;---- 94-96 Other service activities
+choose and define in knime://LOCAL/_common/data/Switzerland/usemap.csv;--- 97-98 Activities of households as employers and producers for own use
+choose and define in knime://LOCAL/_common/data/Switzerland/usemap.csv;- Households
+choose and define in knime://LOCAL/_common/data/Switzerland/usemap.csv;-- Household transports
+choose and define in knime://LOCAL/_common/data/Switzerland/usemap.csv;-- Heating and other household emissions
+space-heating;--- Household heating
+applightcoolk;--- Other household emissions
+choose and define in knime://LOCAL/_common/data/Switzerland/usemap.csv;Statistical difference

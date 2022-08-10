@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack">
+<config key="Variable_0">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="sector-code"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="B_101900"/>
+</config>
+<config key="Variable_1">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="sector-code"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="B_101900"/>
+</config>
+</config>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="defaultValue">
+<config key="variable_value">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+</config>
+<entry key="label" type="xstring" value="Sector"/>
+<entry key="description" type="xstring" value="Enter Description"/>
+<entry key="hideInWizard" type="xboolean" value="false"/>
+<entry key="hideInDialog" type="xboolean" value="false"/>
+<entry key="required" type="xboolean" value="true"/>
+<entry key="parameterName" type="xstring" value="multiple-selection"/>
+<entry key="customCSS" type="xstring" value=""/>
+<entry key="flowvariablename" type="xstring" value="sector-code"/>
+<config key="possible_choices">
+<entry key="array-size" type="xint" value="172"/>
+<entry key="0" type="xstring" value="B_100100"/>
+<entry key="1" type="xstring" value="B_100110"/>
+<entry key="2" type="xstring" value="B_100200"/>
+<entry key="3" type="xstring" value="B_150201"/>
+<entry key="4" type="xstring" value="B_150202"/>
+<entry key="5" type="xstring" value="B_150203"/>
+<entry key="6" type="xstring" value="B_150204"/>
+<entry key="7" type="xstring" value="B_100210"/>
+<entry key="8" type="xstring" value="B_100300"/>
+<entry key="9" type="xstring" value="B_100400"/>
+<entry key="10" type="xstring" value="B_100500"/>
+<entry key="11" type="xstring" value="B_100800"/>
+<entry key="12" type="xstring" value="B_100112"/>
+<entry key="13" type="xstring" value="B_100900"/>
+<entry key="14" type="xstring" value="B_101000"/>
+<entry key="15" type="xstring" value="B_101001"/>
+<entry key="16" type="xstring" value="B_101021"/>
+<entry key="17" type="xstring" value="B_101031"/>
+<entry key="18" type="xstring" value="B_101032"/>
+<entry key="19" type="xstring" value="B_101022"/>
+<entry key="20" type="xstring" value="B_101034"/>
+<entry key="21" type="xstring" value="B_101035"/>
+<entry key="22" type="xstring" value="B_101017"/>
+<entry key="23" type="xstring" value="B_101002"/>
+<entry key="24" type="xstring" value="B_101004"/>
+<entry key="25" type="xstring" value="B_101006"/>
+<entry key="26" type="xstring" value="B_101007"/>
+<entry key="27" type="xstring" value="B_101008"/>
+<entry key="28" type="xstring" value="B_101009"/>
+<entry key="29" type="xstring" value="B_101038"/>
+<entry key="30" type="xstring" value="B_101039"/>
+<entry key="31" type="xstring" value="B_101322"/>
+<entry key="32" type="xstring" value="B_101323"/>
+<entry key="33" type="xstring" value="B_101010"/>
+<entry key="34" type="xstring" value="B_101011"/>
+<entry key="35" type="xstring" value="B_101012"/>
+<entry key="36" type="xstring" value="B_101013"/>
+<entry key="37" type="xstring" value="B_101015"/>
+<entry key="38" type="xstring" value="B_101016"/>
+<entry key="39" type="xstring" value="B_101020"/>
+<entry key="40" type="xstring" value="B_101100"/>
+<entry key="41" type="xstring" value="B_101101"/>
+<entry key="42" type="xstring" value="B_101121"/>
+<entry key="43" type="xstring" value="15_107038"/>
+<entry key="44" type="xstring" value="15_107048"/>
+<entry key="45" type="xstring" value="15_107054"/>
+<entry key="46" type="xstring" value="14_1070422"/>
+<entry key="47" type="xstring" value="15_107039"/>
+<entry key="48" type="xstring" value="15_107049"/>
+<entry key="49" type="xstring" value="15_107055"/>
+<entry key="50" type="xstring" value="14_1070423"/>
+<entry key="51" type="xstring" value="15_107064"/>
+<entry key="52" type="xstring" value="15_107072"/>
+<entry key="53" type="xstring" value="15_107076"/>
+<entry key="54" type="xstring" value="15_107080"/>
+<entry key="55" type="xstring" value="15_107086"/>
+<entry key="56" type="xstring" value="14_1070681"/>
+<entry key="57" type="xstring" value="B_101122"/>
+<entry key="58" type="xstring" value="15_107040"/>
+<entry key="59" type="xstring" value="15_107050"/>
+<entry key="60" type="xstring" value="15_107052"/>
+<entry key="61" type="xstring" value="15_107056"/>
+<entry key="62" type="xstring" value="14_1070432"/>
+<entry key="63" type="xstring" value="15_107041"/>
+<entry key="64" type="xstring" value="15_107051"/>
+<entry key="65" type="xstring" value="15_107053"/>
+<entry key="66" type="xstring" value="15_107057"/>
+<entry key="67" type="xstring" value="14_1070433"/>
+<entry key="68" type="xstring" value="15_107066"/>
+<entry key="69" type="xstring" value="15_107074"/>
+<entry key="70" type="xstring" value="15_107078"/>
+<entry key="71" type="xstring" value="15_107082"/>
+<entry key="72" type="xstring" value="15_107084"/>
+<entry key="73" type="xstring" value="15_107088"/>
+<entry key="74" type="xstring" value="14_1070701"/>
+<entry key="75" type="xstring" value="B_101102"/>
+<entry key="76" type="xstring" value="15_107030"/>
+<entry key="77" type="xstring" value="15_107031"/>
+<entry key="78" type="xstring" value="15_107032"/>
+<entry key="79" type="xstring" value="15_107033"/>
+<entry key="80" type="xstring" value="15_107060"/>
+<entry key="81" type="xstring" value="15_107062"/>
+<entry key="82" type="xstring" value="B_101104"/>
+<entry key="83" type="xstring" value="B_101106"/>
+<entry key="84" type="xstring" value="B_101107"/>
+<entry key="85" type="xstring" value="B_101108"/>
+<entry key="86" type="xstring" value="B_101110"/>
+<entry key="87" type="xstring" value="B_101111"/>
+<entry key="88" type="xstring" value="B_101115"/>
+<entry key="89" type="xstring" value="B_101109"/>
+<entry key="90" type="xstring" value="15_107061"/>
+<entry key="91" type="xstring" value="15_107065"/>
+<entry key="92" type="xstring" value="15_107073"/>
+<entry key="93" type="xstring" value="15_107077"/>
+<entry key="94" type="xstring" value="15_107081"/>
+<entry key="95" type="xstring" value="15_107087"/>
+<entry key="96" type="xstring" value="14_1070691"/>
+<entry key="97" type="xstring" value="15_107063"/>
+<entry key="98" type="xstring" value="15_107067"/>
+<entry key="99" type="xstring" value="15_107075"/>
+<entry key="100" type="xstring" value="15_107079"/>
+<entry key="101" type="xstring" value="15_107083"/>
+<entry key="102" type="xstring" value="15_107085"/>
+<entry key="103" type="xstring" value="15_107089"/>
+<entry key="104" type="xstring" value="14_1070711"/>
+<entry key="105" type="xstring" value="B_101200"/>
+<entry key="106" type="xstring" value="B_101210"/>
+<entry key="107" type="xstring" value="B_101220"/>
+<entry key="108" type="xstring" value="B_101230"/>
+<entry key="109" type="xstring" value="B_101300"/>
+<entry key="110" type="xstring" value="B_101301"/>
+<entry key="111" type="xstring" value="B_101302"/>
+<entry key="112" type="xstring" value="17_107302"/>
+<entry key="113" type="xstring" value="17_107301"/>
+<entry key="114" type="xstring" value="15_107036"/>
+<entry key="115" type="xstring" value="15_107037"/>
+<entry key="116" type="xstring" value="B_101305"/>
+<entry key="117" type="xstring" value="B_101307"/>
+<entry key="118" type="xstring" value="B_101308"/>
+<entry key="119" type="xstring" value="B_101310"/>
+<entry key="120" type="xstring" value="B_101311"/>
+<entry key="121" type="xstring" value="B_101312"/>
+<entry key="122" type="xstring" value="B_101313"/>
+<entry key="123" type="xstring" value="B_101314"/>
+<entry key="124" type="xstring" value="B_101315"/>
+<entry key="125" type="xstring" value="B_101316"/>
+<entry key="126" type="xstring" value="B_101317"/>
+<entry key="127" type="xstring" value="B_101318"/>
+<entry key="128" type="xstring" value="B_101319"/>
+<entry key="129" type="xstring" value="B_101320"/>
+<entry key="130" type="xstring" value="B_101321"/>
+<entry key="131" type="xstring" value="B_101400"/>
+<entry key="132" type="xstring" value="B_101500"/>
+<entry key="133" type="xstring" value="B_101600"/>
+<entry key="134" type="xstring" value="B_101603"/>
+<entry key="135" type="xstring" value="B_101604"/>
+<entry key="136" type="xstring" value="B_101605"/>
+<entry key="137" type="xstring" value="B_101601"/>
+<entry key="138" type="xstring" value="B_101606"/>
+<entry key="139" type="xstring" value="B_101607"/>
+<entry key="140" type="xstring" value="B_101608"/>
+<entry key="141" type="xstring" value="B_101700"/>
+<entry key="142" type="xstring" value="B_101800"/>
+<entry key="143" type="xstring" value="B_101805"/>
+<entry key="144" type="xstring" value="B_101815"/>
+<entry key="145" type="xstring" value="B_101810"/>
+<entry key="146" type="xstring" value="B_101820"/>
+<entry key="147" type="xstring" value="B_101846"/>
+<entry key="148" type="xstring" value="B_101847"/>
+<entry key="149" type="xstring" value="B_101825"/>
+<entry key="150" type="xstring" value="B_101830"/>
+<entry key="151" type="xstring" value="B_101840"/>
+<entry key="152" type="xstring" value="B_101851"/>
+<entry key="153" type="xstring" value="B_101852"/>
+<entry key="154" type="xstring" value="B_101835"/>
+<entry key="155" type="xstring" value="B_101853"/>
+<entry key="156" type="xstring" value="B_101900"/>
+<entry key="157" type="xstring" value="B_101910"/>
+<entry key="158" type="xstring" value="B_101920"/>
+<entry key="159" type="xstring" value="B_101931"/>
+<entry key="160" type="xstring" value="B_101932"/>
+<entry key="161" type="xstring" value="B_101940"/>
+<entry key="162" type="xstring" value="B_101945"/>
+<entry key="163" type="xstring" value="B_101950"/>
+<entry key="164" type="xstring" value="B_102000"/>
+<entry key="165" type="xstring" value="B_102035"/>
+<entry key="166" type="xstring" value="B_102010"/>
+<entry key="167" type="xstring" value="B_102030"/>
+<entry key="168" type="xstring" value="B_102020"/>
+<entry key="169" type="xstring" value="B_102040"/>
+<entry key="170" type="xstring" value="B_102200"/>
+<entry key="171" type="xstring" value="B_101014"/>
+</config>
+<entry key="type" type="xstring" value="Twinlist"/>
+<entry key="limit_number_visible_options" type="xboolean" value="false"/>
+<entry key="number_visible_options" type="xint" value="10"/>
+</config>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value="Sector/subsector/category selection"/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="-537"/>
+<entry key="y-coordinate" type="xint" value="1659"/>
+<entry key="width" type="xint" value="195"/>
+<entry key="height" type="xint" value="15"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="16777215"/>
+<entry key="defFontSize" type="xint" value="9"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="IDLE"/>
+<config key="nodecontainer_message">
+<entry key="type" type="xstring" value="WARNING"/>
+<entry key="message" type="xstring" value="Outer workflow does not have input data, execute it first"/>
+</config>
+<entry key="factory" type="xstring" value="org.knime.js.base.node.quickform.selection.multiple.MultipleSelectionQuickFormNodeFactory"/>
+<entry key="node-name" type="xstring" value="Multiple Selections"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Quick Form Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.js.quickforms"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.6.1.v201808311614"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Quick Forms"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.js.quickforms.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.6.2.v201811051557"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Multiple Selections"/>
+<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+</config>
+</config>

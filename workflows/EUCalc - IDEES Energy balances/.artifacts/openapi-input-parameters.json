@@ -1,0 +1,53 @@
+
+{
+    "type":"object",
+    "properties":{
+        "multiple-selection-7:58":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"array",
+                    "items":{
+                        "type":"string",
+                        "default":"3234"
+                    }
+                }
+            },
+            "description":"Enter Description",
+            "example":{
+                "variable_value":[
+                    "3234",
+                    "3235",
+                    "3246",
+                    "3247",
+                    "3244",
+                    "3260",
+                    "3270A",
+                    "4100",
+                    "5542",
+                    "5546",
+                    "5547",
+                    "6000"
+                ]
+            }
+        },
+        "multiple-selection-7:66":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"array",
+                    "items":{
+                        "type":"string",
+                        "default":"B_101900"
+                    }
+                }
+            },
+            "description":"Enter Description",
+            "example":{
+                "variable_value":[
+                    "B_101900"
+                ]
+            }
+        }
+    }
+}

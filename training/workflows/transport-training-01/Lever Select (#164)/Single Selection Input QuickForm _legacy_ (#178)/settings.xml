@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="label" type="xstring" value="Germany - Passenger Travel"/>
+<entry key="description" type="xstring" value="Evolution of passenger travel"/>
+<entry key="variableName" type="xstring" value="passenger-travel"/>
+<entry key="weight" type="xint" value="1"/>
+<entry key="hide_in_wizard" type="xboolean" value="false"/>
+<config key="value">
+<entry key="value" type="xstring" value="4"/>
+<entry key="layout" type="xstring" value="RADIO_HORIZONTAL"/>
+</config>
+<entry key="choices" type="xstring" value="1,2,3,4"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="IDLE"/>
+<config key="nodecontainer_message">
+<entry key="type" type="xstring" value="WARNING"/>
+<entry key="message" type="xstring" value="Node can't be executed - Node &quot;Single Selection Input QuickForm (legacy)&quot; not available from extension &quot;KNIME Interactive R Statistics Integration&quot; (provided by &quot;KNIME.com, Zurich, Switzerland&quot;; plugin &quot;org.knime.quickform.nodes.legacy&quot; is not installed)"/>
+</config>
+<entry key="factory" type="xstring" value="org.knime.quickform.nodes.in.selection.single.SingleSelectionInputQuickFormInNodeFactory"/>
+<entry key="node-name" type="xstring" value="Single Selection Input QuickForm (legacy)"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Nodes to create legacy KNIME Quick Forms"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.quickform.nodes.legacy"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME.com, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.3.0.v201612012034"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Interactive R Statistics Integration"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.r.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
+<entry key="node-feature-version" type="xstring" value="3.3.0.v201612012034"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="MISSING Single Selection Input QuickForm (legacy)"/>
+<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+</config>
+</config>

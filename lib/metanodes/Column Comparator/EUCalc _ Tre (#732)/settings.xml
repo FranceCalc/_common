@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="string-input-444">
+<entry key="string" type="xstring" value="compared"/>
+</config>
+<config key="string-input-445">
+<entry key="string" type="xstring" value="(.*)_left"/>
+</config>
+<config key="string-input-446">
+<entry key="string" type="xstring" value="(.*)_right"/>
+</config>
+<config key="string-input-460">
+<entry key="string" type="xstring" value=""/>
+</config>
+<config key="single-selection-463">
+<entry key="variable_value" type="xstring" value="Subtraction 1-2"/>
+</config>
+<config key="boolean-input-586">
+<entry key="boolean" type="xboolean" value="false"/>
+</config>
+<config key="column-filter-652">
+<config key="columns">
+<entry key="array-size" type="xint" value="172"/>
+<entry key="0" type="xstring" value="lever_climate-smart-forestry_left"/>
+<entry key="1" type="xstring" value="fts_agr_climate-smart-forestry_management_csf[%]_left"/>
+<entry key="2" type="xstring" value="fts_agr_climate-smart-forestry_management_oth[%]_left"/>
+<entry key="3" type="xstring" value="fts_agr_climate-smart-forestry_use_faws[%]_left"/>
+<entry key="4" type="xstring" value="fts_agr_climate-smart-forestry_use_oth[%]_left"/>
+<entry key="5" type="xstring" value="fts_agr_climate-smart-forestry_use_reserves[%]_left"/>
+<entry key="6" type="xstring" value="lever_climate-smart-crop_left"/>
+<entry key="7" type="xstring" value="fts_agr_climate-smart-crop_chemical_pesticides[t/ha]_left"/>
+<entry key="8" type="xstring" value="fts_agr_climate-smart-crop_energy-demand_diesel[%]_left"/>
+<entry key="9" type="xstring" value="fts_agr_climate-smart-crop_energy-demand_el[%]_left"/>
+<entry key="10" type="xstring" value="fts_agr_climate-smart-crop_energy-demand_el_irrigation[%]_left"/>
+<entry key="11" type="xstring" value="fts_agr_climate-smart-crop_energy-demand_fuel-oil[%]_left"/>
+<entry key="12" type="xstring" value="fts_agr_climate-smart-crop_energy-demand_gasoline[%]_left"/>
+<entry key="13" type="xstring" value="fts_agr_climate-smart-crop_energy-demand_lpg[%]_left"/>
+<entry key="14" type="xstring" value="fts_agr_climate-smart-crop_fertilizer_nitrogen[t/ha]_left"/>
+<entry key="15" type="xstring" value="fts_agr_climate-smart-crop_fertilizer_phosphore[t/ha]_left"/>
+<entry key="16" type="xstring" value="fts_agr_climate-smart-crop_fertilizer_potash[t/ha]_left"/>
+<entry key="17" type="xstring" value="fts_agr_climate-smart-crop_losses_cereal[%]_left"/>
+<entry key="18" type="xstring" value="fts_agr_climate-smart-crop_losses_fruit[%]_left"/>
+<entry key="19" type="xstring" value="fts_agr_climate-smart-crop_losses_oilcrop[%]_left"/>
+<entry key="20" type="xstring" value="fts_agr_climate-smart-crop_losses_pulse[%]_left"/>
+<entry key="21" type="xstring" value="fts_agr_climate-smart-crop_losses_rice[%]_left"/>
+<entry key="22" type="xstring" value="fts_agr_climate-smart-crop_losses_starch[%]_left"/>
+<entry key="23" type="xstring" value="fts_agr_climate-smart-crop_losses_sugarcrop[%]_left"/>
+<entry key="24" type="xstring" value="fts_agr_climate-smart-crop_losses_veg[%]_left"/>
+<entry key="25" type="xstring" value="fts_agr_climate-smart-crop_residues_share_oth-uses[%]_left"/>
+<entry key="26" type="xstring" value="fts_agr_climate-smart-crop_residues_share_soil-quality[%]_left"/>
+<entry key="27" type="xstring" value="fts_agr_climate-smart-crop_total_energy[TWh/ha]_left"/>
+<entry key="28" type="xstring" value="fts_agr_climate-smart-crop_yield_algae[kcal/ha]_left"/>
+<entry key="29" type="xstring" value="fts_agr_climate-smart-crop_yield_cereal[kcal/ha]_left"/>
+<entry key="30" type="xstring" value="fts_agr_climate-smart-crop_yield_energycrop[kcal/ha]_left"/>
+<entry key="31" type="xstring" value="fts_agr_climate-smart-crop_yield_fruit[kcal/ha]_left"/>
+<entry key="32" type="xstring" value="fts_agr_climate-smart-crop_yield_insect[kcal/ha]_left"/>
+<entry key="33" type="xstring" value="fts_agr_climate-smart-crop_yield_oilcrop[kcal/ha]_left"/>
+<entry key="34" type="xstring" value="fts_agr_climate-smart-crop_yield_pulse[kcal/ha]_left"/>
+<entry key="35" type="xstring" value="fts_agr_climate-smart-crop_yield_rice[kcal/ha]_left"/>
+<entry key="36" type="xstring" value="fts_agr_climate-smart-crop_yield_starch[kcal/ha]_left"/>
+<entry key="37" type="xstring" value="fts_agr_climate-smart-crop_yield_sugarcrop[kcal/ha]_left"/>
+<entry key="38" type="xstring" value="fts_agr_climate-smart-crop_yield_veg[kcal/ha]_left"/>
+<entry key="39" type="xstring" value="lever_climate-smart-livestock_left"/>
+<entry key="40" type="xstring" value="fts_agr_climate-smart-livestock_enteric_abp_dairy-milk_CH4-emission[Mt/lsu]_left"/>
+<entry key="41" type="xstring" value="fts_agr_climate-smart-livestock_enteric_meat_bovine_CH4-emission[Mt/lsu]_left"/>
+<entry key="42" type="xstring" value="fts_agr_climate-smart-livestock_enteric_meat_oth-animals_CH4-emission[Mt/lsu]_left"/>
+<entry key="43" type="xstring" value="fts_agr_climate-smart-livestock_enteric_meat_pig_CH4-emission[Mt/lsu]_left"/>
+<entry key="44" type="xstring" value="fts_agr_climate-smart-livestock_enteric_meat_sheep_CH4-emission[Mt/lsu]_left"/>
+<entry key="45" type="xstring" value="fts_agr_climate-smart-livestock_losses_abp_dairy-milk[%]_left"/>
+<entry key="46" type="xstring" value="fts_agr_climate-smart-livestock_losses_abp_hens-egg[%]_left"/>
+<entry key="47" type="xstring" value="fts_agr_climate-smart-livestock_losses_abp_processed_afat[%]_left"/>
+<entry key="48" type="xstring" value="fts_agr_climate-smart-livestock_losses_abp_processed_offal[%]_left"/>
+<entry key="49" type="xstring" value="fts_agr_climate-smart-livestock_losses_meat_bovine[%]_left"/>
+<entry key="50" type="xstring" value="fts_agr_climate-smart-livestock_losses_meat_oth-animals[%]_left"/>
+<entry key="51" type="xstring" value="fts_agr_climate-smart-livestock_losses_meat_pig[%]_left"/>
+<entry key="52" type="xstring" value="fts_agr_climate-smart-livestock_losses_meat_poultry[%]_left"/>
+<entry key="53" type="xstring" value="fts_agr_climate-smart-livestock_losses_meat_sheep[%]_left"/>
+<entry key="54" type="xstring" value="fts_agr_climate-smart-livestock_manure_abp_dairy-milk_applied[%]_left"/>
+<entry key="55" type="xstring" value="fts_agr_climate-smart-livestock_manure_abp_dairy-milk_pasture[%]_left"/>
+<entry key="56" type="xstring" value="fts_agr_climate-smart-livestock_manure_abp_dairy-milk_treated[%]_left"/>
+<entry key="57" type="xstring" value="fts_agr_climate-smart-livestock_manure_abp_hens-egg_applied[%]_left"/>
+<entry key="58" type="xstring" value="fts_agr_climate-smart-livestock_manure_abp_hens-egg_pasture[%]_left"/>
+<entry key="59" type="xstring" value="fts_agr_climate-smart-livestock_manure_abp_hens-egg_treated[%]_left"/>
+<entry key="60" type="xstring" value="fts_agr_climate-smart-livestock_manure_meat_bovine_applied[%]_left"/>
+<entry key="61" type="xstring" value="fts_agr_climate-smart-livestock_manure_meat_bovine_pasture[%]_left"/>
+<entry key="62" type="xstring" value="fts_agr_climate-smart-livestock_manure_meat_bovine_treated[%]_left"/>
+<entry key="63" type="xstring" value="fts_agr_climate-smart-livestock_manure_meat_oth-animals_applied[%]_left"/>
+<entry key="64" type="xstring" value="fts_agr_climate-smart-livestock_manure_meat_oth-animals_pasture[%]_left"/>
+<entry key="65" type="xstring" value="fts_agr_climate-smart-livestock_manure_meat_oth-animals_treated[%]_left"/>
+<entry key="66" type="xstring" value="fts_agr_climate-smart-livestock_manure_meat_pig_applied[%]_left"/>
+<entry key="67" type="xstring" value="fts_agr_climate-smart-livestock_manure_meat_pig_pasture[%]_left"/>
+<entry key="68" type="xstring" value="fts_agr_climate-smart-livestock_manure_meat_pig_treated[%]_left"/>
+<entry key="69" type="xstring" value="fts_agr_climate-smart-livestock_manure_meat_poultry_applied[%]_left"/>
+<entry key="70" type="xstring" value="fts_agr_climate-smart-livestock_manure_meat_poultry_pasture[%]_left"/>
+<entry key="71" type="xstring" value="fts_agr_climate-smart-livestock_manure_meat_poultry_treated[%]_left"/>
+<entry key="72" type="xstring" value="fts_agr_climate-smart-livestock_manure_meat_sheep_applied[%]_left"/>
+<entry key="73" type="xstring" value="fts_agr_climate-smart-livestock_manure_meat_sheep_pasture[%]_left"/>
+<entry key="74" type="xstring" value="fts_agr_climate-smart-livestock_manure_meat_sheep_treated[%]_left"/>
+<entry key="75" type="xstring" value="fts_agr_climate-smart-livestock_pasture_grazing-intensity[kcal/ha]_left"/>
+<entry key="76" type="xstring" value="fts_agr_climate-smart-livestock_slaughtered_meat_bovine[%]_left"/>
+<entry key="77" type="xstring" value="fts_agr_climate-smart-livestock_slaughtered_meat_oth-animals[%]_left"/>
+<entry key="78" type="xstring" value="fts_agr_climate-smart-livestock_slaughtered_meat_pig[%]_left"/>
+<entry key="79" type="xstring" value="fts_agr_climate-smart-livestock_slaughtered_meat_poultry[%]_left"/>
+<entry key="80" type="xstring" value="fts_agr_climate-smart-livestock_slaughtered_meat_sheep[%]_left"/>
+<entry key="81" type="xstring" value="fts_agr_climate-smart-livestock_yield_abp_dairy-milk[kcal/lsu]_left"/>
+<entry key="82" type="xstring" value="fts_agr_climate-smart-livestock_yield_abp_hens-egg[kcal/lsu]_left"/>
+<entry key="83" type="xstring" value="fts_agr_climate-smart-livestock_yield_meat_bovine[kcal/lsu]_left"/>
+<entry key="84" type="xstring" value="fts_agr_climate-smart-livestock_yield_meat_oth-animals[kcal/lsu]_left"/>
+<entry key="85" type="xstring" value="fts_agr_climate-smart-livestock_yield_meat_pig[kcal/lsu]_left"/>
+<entry key="86" type="xstring" value="fts_agr_climate-smart-livestock_yield_meat_poultry[kcal/lsu]_left"/>
+<entry key="87" type="xstring" value="fts_agr_climate-smart-livestock_yield_meat_sheep[kcal/lsu]_left"/>
+<entry key="88" type="xstring" value="lever_food-net-import_left"/>
+<entry key="89" type="xstring" value="fts_agr_food-net-import_crop_cereal[%]_left"/>
+<entry key="90" type="xstring" value="fts_agr_food-net-import_crop_fruit[%]_left"/>
+<entry key="91" type="xstring" value="fts_agr_food-net-import_crop_oilcrop[%]_left"/>
+<entry key="92" type="xstring" value="fts_agr_food-net-import_crop_pulse[%]_left"/>
+<entry key="93" type="xstring" value="fts_agr_food-net-import_crop_rice[%]_left"/>
+<entry key="94" type="xstring" value="fts_agr_food-net-import_crop_starch[%]_left"/>
+<entry key="95" type="xstring" value="fts_agr_food-net-import_crop_stm[%]_left"/>
+<entry key="96" type="xstring" value="fts_agr_food-net-import_crop_sugarcrop[%]_left"/>
+<entry key="97" type="xstring" value="fts_agr_food-net-import_crop_veg[%]_left"/>
+<entry key="98" type="xstring" value="fts_agr_food-net-import_pro_bev_beer[%]_left"/>
+<entry key="99" type="xstring" value="fts_agr_food-net-import_pro_bev_bev-alc[%]_left"/>
+<entry key="100" type="xstring" value="fts_agr_food-net-import_pro_bev_bev-fer[%]_left"/>
+<entry key="101" type="xstring" value="fts_agr_food-net-import_pro_bev_wine[%]_left"/>
+<entry key="102" type="xstring" value="fts_agr_food-net-import_pro_crop_processeced_cake[%]_left"/>
+<entry key="103" type="xstring" value="fts_agr_food-net-import_pro_crop_processed_molasse[%]_left"/>
+<entry key="104" type="xstring" value="fts_agr_food-net-import_pro_crop_processed_non-food-alcohol[%]_left"/>
+<entry key="105" type="xstring" value="fts_agr_food-net-import_pro_crop_processed_sugar[%]_left"/>
+<entry key="106" type="xstring" value="fts_agr_food-net-import_pro_crop_processed_sweet-oth[%]_left"/>
+<entry key="107" type="xstring" value="fts_agr_food-net-import_pro_crop_processed_voil[%]_left"/>
+<entry key="108" type="xstring" value="fts_agr_food-net-import_pro_liv_abp_dairy-milk[%]_left"/>
+<entry key="109" type="xstring" value="fts_agr_food-net-import_pro_liv_abp_hens-egg[%]_left"/>
+<entry key="110" type="xstring" value="fts_agr_food-net-import_pro_liv_abp_processed_afat[%]_left"/>
+<entry key="111" type="xstring" value="fts_agr_food-net-import_pro_liv_abp_processed_offal[%]_left"/>
+<entry key="112" type="xstring" value="fts_agr_food-net-import_pro_liv_meat_bovine[%]_left"/>
+<entry key="113" type="xstring" value="fts_agr_food-net-import_pro_liv_meat_oth-animals[%]_left"/>
+<entry key="114" type="xstring" value="fts_agr_food-net-import_pro_liv_meat_pig[%]_left"/>
+<entry key="115" type="xstring" value="fts_agr_food-net-import_pro_liv_meat_poultry[%]_left"/>
+<entry key="116" type="xstring" value="fts_agr_food-net-import_pro_liv_meat_sheep[%]_left"/>
+<entry key="117" type="xstring" value="lever_alt-protein_left"/>
+<entry key="118" type="xstring" value="fts_agr_alt-protein_abp_dairy-milk_algae[%]_left"/>
+<entry key="119" type="xstring" value="fts_agr_alt-protein_abp_dairy-milk_insect[%]_left"/>
+<entry key="120" type="xstring" value="fts_agr_alt-protein_abp_hens-egg_algae[%]_left"/>
+<entry key="121" type="xstring" value="fts_agr_alt-protein_abp_hens-egg_insect[%]_left"/>
+<entry key="122" type="xstring" value="fts_agr_alt-protein_meat_bovine_algae[%]_left"/>
+<entry key="123" type="xstring" value="fts_agr_alt-protein_meat_bovine_insect[%]_left"/>
+<entry key="124" type="xstring" value="fts_agr_alt-protein_meat_oth-animals_algae[%]_left"/>
+<entry key="125" type="xstring" value="fts_agr_alt-protein_meat_oth-animals_insect[%]_left"/>
+<entry key="126" type="xstring" value="fts_agr_alt-protein_meat_pig_algae[%]_left"/>
+<entry key="127" type="xstring" value="fts_agr_alt-protein_meat_pig_insect[%]_left"/>
+<entry key="128" type="xstring" value="fts_agr_alt-protein_meat_poultry_algae[%]_left"/>
+<entry key="129" type="xstring" value="fts_agr_alt-protein_meat_poultry_insect[%]_left"/>
+<entry key="130" type="xstring" value="fts_agr_alt-protein_meat_sheep_algae[%]_left"/>
+<entry key="131" type="xstring" value="fts_agr_alt-protein_meat_sheep_insect[%]_left"/>
+<entry key="132" type="xstring" value="lever_land-man_left"/>
+<entry key="133" type="xstring" value="fts_agr_land-man_dyn_forest[%]_left"/>
+<entry key="134" type="xstring" value="fts_agr_land-man_dyn_natural-prairies[%]_left"/>
+<entry key="135" type="xstring" value="fts_agr_land-man_dyn_unmanaged[%]_left"/>
+<entry key="136" type="xstring" value="fts_agr_land-man_other[ha]_left"/>
+<entry key="137" type="xstring" value="fts_agr_land-man_pasture_abp_dairy-milk[%]_left"/>
+<entry key="138" type="xstring" value="fts_agr_land-man_pasture_meat_bovine[%]_left"/>
+<entry key="139" type="xstring" value="fts_agr_land-man_pasture_meat_sheep[%]_left"/>
+<entry key="140" type="xstring" value="fts_agr_land-man_settlement[ha]_left"/>
+<entry key="141" type="xstring" value="lever_climate-smart-fisheries_left"/>
+<entry key="142" type="xstring" value="fts_agr_climate-smart-fisheries_effort[%]_left"/>
+<entry key="143" type="xstring" value="fts_agr_climate-smart-fisheries_energy[%]_left"/>
+<entry key="144" type="xstring" value="lever_biomass-hierarchy_left"/>
+<entry key="145" type="xstring" value="fts_agr_biomass-hierarchy_bev_ibp_use_oth_ethanol[%]_left"/>
+<entry key="146" type="xstring" value="fts_agr_biomass-hierarchy_bev_ibp_use_oth_fertilizer[%]_left"/>
+<entry key="147" type="xstring" value="fts_agr_biomass-hierarchy_bev_ibp_use_oth_solid_bioenergy[%]_left"/>
+<entry key="148" type="xstring" value="fts_agr_biomass-hierarchy_bioenergy_fdk-demand_oil_mix_afats[%]_left"/>
+<entry key="149" type="xstring" value="fts_agr_biomass-hierarchy_bioenergy_fdk-demand_oil_mix_uco[%]_left"/>
+<entry key="150" type="xstring" value="fts_agr_biomass-hierarchy_bioenergy_fdk-demand_oil_mix_voil[%]_left"/>
+<entry key="151" type="xstring" value="fts_agr_biomass-hierarchy_bioenergy_fdk-demand_sgr_mix_cereal[%]_left"/>
+<entry key="152" type="xstring" value="fts_agr_biomass-hierarchy_bioenergy_fdk-demand_sgr_mix_sugarcrop[%]_left"/>
+<entry key="153" type="xstring" value="fts_agr_biomass-hierarchy_bioenergy_ibp_fdk[%]_left"/>
+<entry key="154" type="xstring" value="fts_agr_biomass-hierarchy_bioenergy_liquid_biodiesel_tec_btl[%]_left"/>
+<entry key="155" type="xstring" value="fts_agr_biomass-hierarchy_bioenergy_liquid_biodiesel_tec_est[%]_left"/>
+<entry key="156" type="xstring" value="fts_agr_biomass-hierarchy_bioenergy_liquid_biodiesel_tec_hvo[%]_left"/>
+<entry key="157" type="xstring" value="fts_agr_biomass-hierarchy_bioenergy_liquid_ethanol_tec_ezm[%]_left"/>
+<entry key="158" type="xstring" value="fts_agr_biomass-hierarchy_bioenergy_liquid_ethanol_tec_fer[%]_left"/>
+<entry key="159" type="xstring" value="fts_agr_biomass-hierarchy_bioenergy_liquid_jetfuel_tec_btl[%]_left"/>
+<entry key="160" type="xstring" value="fts_agr_biomass-hierarchy_bioenergy_liquid_jetfuel_tec_hvo[%]_left"/>
+<entry key="161" type="xstring" value="fts_agr_biomass-hierarchy_chemical_ibp_fdk[%]_left"/>
+<entry key="162" type="xstring" value="fts_agr_biomass-hierarchy_crop_cereal_burnt-residues[Mt/kcal]_left"/>
+<entry key="163" type="xstring" value="fts_agr_biomass-hierarchy_crop_cereal_soil-residues[Mt/kcal]_left"/>
+<entry key="164" type="xstring" value="fts_agr_biomass-hierarchy_feed_ibp_fdk[%]_left"/>
+<entry key="165" type="xstring" value="fts_agr_biomass-hierarchy_fertilizer_ibp_fdk[%]_left"/>
+<entry key="166" type="xstring" value="fts_agr_biomass-hierarchy_other_ibp_fdk[%]_left"/>
+<entry key="167" type="xstring" value="fts_agr_biomass-hierarchy_residues_share_liquid-bioenergy[%]_left"/>
+<entry key="168" type="xstring" value="fts_agr_biomass-hierarchy_residues_share_oth-uses[%]_left"/>
+<entry key="169" type="xstring" value="fts_agr_biomass-hierarchy_residues_share_solid-bioenergy[%]_left"/>
+<entry key="170" type="xstring" value="fts_agr_biomass-hierarchy_total_energycrop_buffer_energycrop[%]_left"/>
+<entry key="171" type="xstring" value="fts_agr_biomass-hierarchy_total_energycrop_buffer_import[%]_left"/>
+</config>
+<config key="columnFilter">
+<config key="columnFilter">
+<entry key="filter-type" type="xstring" value="name_pattern"/>
+<config key="included_names">
+<entry key="array-size" type="xint" value="346"/>
+<entry key="0" type="xstring" value="Years"/>
+<entry key="1" type="xstring" value="Country"/>
+<entry key="2" type="xstring" value="lever_climate-smart-forestry_right"/>
+<entry key="3" type="xstring" value="fts_agr_climate-smart-forestry_management_csf[%]_right"/>
+<entry key="4" type="xstring" value="fts_agr_climate-smart-forestry_management_oth[%]_right"/>
+<entry key="5" type="xstring" value="fts_agr_climate-smart-forestry_use_faws[%]_right"/>
+<entry key="6" type="xstring" value="fts_agr_climate-smart-forestry_use_oth[%]_right"/>
+<entry key="7" type="xstring" value="fts_agr_climate-smart-forestry_use_reserves[%]_right"/>
+<entry key="8" type="xstring" value="lever_climate-smart-crop_right"/>
+<entry key="9" type="xstring" value="fts_agr_climate-smart-crop_chemical_pesticides[t/ha]_right"/>
+<entry key="10" type="xstring" value="fts_agr_climate-smart-crop_energy-demand_diesel[%]_right"/>
+<entry key="11" type="xstring" value="fts_agr_climate-smart-crop_energy-demand_el[%]_right"/>
+<entry key="12" type="xstring" value="fts_agr_climate-smart-crop_energy-demand_el_irrigation[%]_right"/>
+<entry key="13" type="xstring" value="fts_agr_climate-smart-crop_energy-demand_fuel-oil[%]_right"/>
+<entry key="14" type="xstring" value="fts_agr_climate-smart-crop_energy-demand_gasoline[%]_right"/>
+<entry key="15" type="xstring" value="fts_agr_climate-smart-crop_energy-demand_lpg[%]_right"/>
+<entry key="16" type="xstring" value="fts_agr_climate-smart-crop_fertilizer_nitrogen[t/ha]_right"/>
+<entry key="17" type="xstring" value="fts_agr_climate-smart-crop_fertilizer_phosphore[t/ha]_right"/>
+<entry key="18" type="xstring" value="fts_agr_climate-smart-crop_fertilizer_potash[t/ha]_right"/>
+<entry key="19" type="xstring" value="fts_agr_climate-smart-crop_losses_cereal[%]_right"/>
+<entry key="20" type="xstring" value="fts_agr_climate-smart-crop_losses_fruit[%]_right"/>
+<entry key="21" type="xstring" value="fts_agr_climate-smart-crop_losses_oilcrop[%]_right"/>
+<entry key="22" type="xstring" value="fts_agr_climate-smart-crop_losses_pulse[%]_right"/>
+<entry key="23" type="xstring" value="fts_agr_climate-smart-crop_losses_rice[%]_right"/>
+<entry key="24" type="xstring" value="fts_agr_climate-smart-crop_losses_starch[%]_right"/>
+<entry key="25" type="xstring" value="fts_agr_climate-smart-crop_losses_sugarcrop[%]_right"/>
+<entry key="26" type="xstring" value="fts_agr_climate-smart-crop_losses_veg[%]_right"/>
+<entry key="27" type="xstring" value="fts_agr_climate-smart-crop_residues_share_oth-uses[%]_right"/>
+<entry key="28" type="xstring" value="fts_agr_climate-smart-crop_residues_share_soil-quality[%]_right"/>
+<entry key="29" type="xstring" value="fts_agr_climate-smart-crop_total_energy[TWh/ha]_right"/>
+<entry key="30" type="xstring" value="fts_agr_climate-smart-crop_yield_algae[kcal/ha]_right"/>
+<entry key="31" type="xstring" value="fts_agr_climate-smart-crop_yield_cereal[kcal/ha]_right"/>
+<entry key="32" type="xstring" value="fts_agr_climate-smart-crop_yield_energycrop[kcal/ha]_right"/>
+<entry key="33" type="xstring" value="fts_agr_climate-smart-crop_yield_fruit[kcal/ha]_right"/>
+<entry key="34" type="xstring" value="fts_agr_climate-smart-crop_yield_insect[kcal/ha]_right"/>
+<entry key="35" type="xstring" value="fts_agr_climate-smart-crop_yield_oilcrop[kcal/ha]_right"/>
+<entry key="36" type="xstring" value="fts_agr_climate-smart-crop_yield_pulse[kcal/ha]_right"/>
+<entry key="37" type="xstring" value="fts_agr_climate-smart-crop_yield_rice[kcal/ha]_right"/>
+<entry key="38" type="xstring" value="fts_agr_climate-smart-crop_yield_starch[kcal/ha]_right"/>
+<entry key="39" type="xstring" value="fts_agr_climate-smart-crop_yield_sugarcrop[kcal/ha]_right"/>
+<entry key="40" type="xstring" value="fts_agr_climate-smart-crop_yield_veg[kcal/ha]_right"/>
+<entry key="41" type="xstring" value="lever_climate-smart-livestock_right"/>
+<entry key="42" type="xstring" value="fts_agr_climate-smart-livestock_enteric_abp_dairy-milk_CH4-emission[Mt/lsu]_right"/>
+<entry key="43" type="xstring" value="fts_agr_climate-smart-livestock_enteric_meat_bovine_CH4-emission[Mt/lsu]_right"/>
+<entry key="44" type="xstring" value="fts_agr_climate-smart-livestock_enteric_meat_oth-animals_CH4-emission[Mt/lsu]_right"/>
+<entry key="45" type="xstring" value="fts_agr_climate-smart-livestock_enteric_meat_pig_CH4-emission[Mt/lsu]_right"/>
+<entry key="46" type="xstring" value="fts_agr_climate-smart-livestock_enteric_meat_sheep_CH4-emission[Mt/lsu]_right"/>
+<entry key="47" type="xstring" value="fts_agr_climate-smart-livestock_losses_abp_dairy-milk[%]_right"/>
+<entry key="48" type="xstring" value="fts_agr_climate-smart-livestock_losses_abp_hens-egg[%]_right"/>
+<entry key="49" type="xstring" value="fts_agr_climate-smart-livestock_losses_abp_processed_afat[%]_right"/>
+<entry key="50" type="xstring" value="fts_agr_climate-smart-livestock_losses_abp_processed_offal[%]_right"/>
+<entry key="51" type="xstring" value="fts_agr_climate-smart-livestock_losses_meat_bovine[%]_right"/>
+<entry key="52" type="xstring" value="fts_agr_climate-smart-livestock_losses_meat_oth-animals[%]_right"/>
+<entry key="53" type="xstring" value="fts_agr_climate-smart-livestock_losses_meat_pig[%]_right"/>
+<entry key="54" type="xstring" value="fts_agr_climate-smart-livestock_losses_meat_poultry[%]_right"/>
+<entry key="55" type="xstring" value="fts_agr_climate-smart-livestock_losses_meat_sheep[%]_right"/>
+<entry key="56" type="xstring" value="fts_agr_climate-smart-livestock_manure_abp_dairy-milk_applied[%]_right"/>
+<entry key="57" type="xstring" value="fts_agr_climate-smart-livestock_manure_abp_dairy-milk_pasture[%]_right"/>
+<entry key="58" type="xstring" value="fts_agr_climate-smart-livestock_manure_abp_dairy-milk_treated[%]_right"/>
+<entry key="59" type="xstring" value="fts_agr_climate-smart-livestock_manure_abp_hens-egg_applied[%]_right"/>
+<entry key="60" type="xstring" value="fts_agr_climate-smart-livestock_manure_abp_hens-egg_pasture[%]_right"/>
+<entry key="61" type="xstring" value="fts_agr_climate-smart-livestock_manure_abp_hens-egg_treated[%]_right"/>
+<entry key="62" type="xstring" value="fts_agr_climate-smart-livestock_manure_meat_bovine_applied[%]_right"/>
+<entry key="63" type="xstring" value="fts_agr_climate-smart-livestock_manure_meat_bovine_pasture[%]_right"/>
+<entry key="64" type="xstring" value="fts_agr_climate-smart-livestock_manure_meat_bovine_treated[%]_right"/>
+<entry key="65" type="xstring" value="fts_agr_climate-smart-livestock_manure_meat_oth-animals_applied[%]_right"/>
+<entry key="66" type="xstring" value="fts_agr_climate-smart-livestock_manure_meat_oth-animals_pasture[%]_right"/>
+<entry key="67" type="xstring" value="fts_agr_climate-smart-livestock_manure_meat_oth-animals_treated[%]_right"/>
+<entry key="68" type="xstring" value="fts_agr_climate-smart-livestock_manure_meat_pig_applied[%]_right"/>
+<entry key="69" type="xstring" value="fts_agr_climate-smart-livestock_manure_meat_pig_pasture[%]_right"/>
+<entry key="70" type="xstring" value="fts_agr_climate-smart-livestock_manure_meat_pig_treated[%]_right"/>
+<entry key="71" type="xstring" value="fts_agr_climate-smart-livestock_manure_meat_poultry_applied[%]_right"/>
+<entry key="72" type="xstring" value="fts_agr_climate-smart-livestock_manure_meat_poultry_pasture[%]_right"/>
+<entry key="73" type="xstring" value="fts_agr_climate-smart-livestock_manure_meat_poultry_treated[%]_right"/>
+<entry key="74" type="xstring" value="fts_agr_climate-smart-livestock_manure_meat_sheep_applied[%]_right"/>
+<entry key="75" type="xstring" value="fts_agr_climate-smart-livestock_manure_meat_sheep_pasture[%]_right"/>
+<entry key="76" type="xstring" value="fts_agr_climate-smart-livestock_manure_meat_sheep_treated[%]_right"/>
+<entry key="77" type="xstring" value="fts_agr_climate-smart-livestock_pasture_grazing-intensity[kcal/ha]_right"/>
+<entry key="78" type="xstring" value="fts_agr_climate-smart-livestock_slaughtered_meat_bovine[%]_right"/>
+<entry key="79" type="xstring" value="fts_agr_climate-smart-livestock_slaughtered_meat_oth-animals[%]_right"/>
+<entry key="80" type="xstring" value="fts_agr_climate-smart-livestock_slaughtered_meat_pig[%]_right"/>
+<entry key="81" type="xstring" value="fts_agr_climate-smart-livestock_slaughtered_meat_poultry[%]_right"/>
+<entry key="82" type="xstring" value="fts_agr_climate-smart-livestock_slaughtered_meat_sheep[%]_right"/>
+<entry key="83" type="xstring" value="fts_agr_climate-smart-livestock_yield_abp_dairy-milk[kcal/lsu]_right"/>
+<entry key="84" type="xstring" value="fts_agr_climate-smart-livestock_yield_abp_hens-egg[kcal/lsu]_right"/>
+<entry key="85" type="xstring" value="fts_agr_climate-smart-livestock_yield_meat_bovine[kcal/lsu]_right"/>
+<entry key="86" type="xstring" value="fts_agr_climate-smart-livestock_yield_meat_oth-animals[kcal/lsu]_right"/>
+<entry key="87" type="xstring" value="fts_agr_climate-smart-livestock_yield_meat_pig[kcal/lsu]_right"/>
+<entry key="88" type="xstring" value="fts_agr_climate-smart-livestock_yield_meat_poultry[kcal/lsu]_right"/>
+<entry key="89" type="xstring" value="fts_agr_climate-smart-livestock_yield_meat_sheep[kcal/lsu]_right"/>
+<entry key="90" type="xstring" value="lever_food-net-import_right"/>
+<entry key="91" type="xstring" value="fts_agr_food-net-import_crop_cereal[%]_right"/>
+<entry key="92" type="xstring" value="fts_agr_food-net-import_crop_fruit[%]_right"/>
+<entry key="93" type="xstring" value="fts_agr_food-net-import_crop_oilcrop[%]_right"/>
+<entry key="94" type="xstring" value="fts_agr_food-net-import_crop_pulse[%]_right"/>
+<entry key="95" type="xstring" value="fts_agr_food-net-import_crop_rice[%]_right"/>
+<entry key="96" type="xstring" value="fts_agr_food-net-import_crop_starch[%]_right"/>
+<entry key="97" type="xstring" value="fts_agr_food-net-import_crop_stm[%]_right"/>
+<entry key="98" type="xstring" value="fts_agr_food-net-import_crop_sugarcrop[%]_right"/>
+<entry key="99" type="xstring" value="fts_agr_food-net-import_crop_veg[%]_right"/>
+<entry key="100" type="xstring" value="fts_agr_food-net-import_pro_bev_beer[%]_right"/>
+<entry key="101" type="xstring" value="fts_agr_food-net-import_pro_bev_bev-alc[%]_right"/>
+<entry key="102" type="xstring" value="fts_agr_food-net-import_pro_bev_bev-fer[%]_right"/>
+<entry key="103" type="xstring" value="fts_agr_food-net-import_pro_bev_wine[%]_right"/>
+<entry key="104" type="xstring" value="fts_agr_food-net-import_pro_crop_processeced_cake[%]_right"/>
+<entry key="105" type="xstring" value="fts_agr_food-net-import_pro_crop_processed_molasse[%]_right"/>
+<entry key="106" type="xstring" value="fts_agr_food-net-import_pro_crop_processed_non-food-alcohol[%]_right"/>
+<entry key="107" type="xstring" value="fts_agr_food-net-import_pro_crop_processed_sugar[%]_right"/>
+<entry key="108" type="xstring" value="fts_agr_food-net-import_pro_crop_processed_sweet-oth[%]_right"/>
+<entry key="109" type="xstring" value="fts_agr_food-net-import_pro_crop_processed_voil[%]_right"/>
+<entry key="110" type="xstring" value="fts_agr_food-net-import_pro_liv_abp_dairy-milk[%]_right"/>
+<entry key="111" type="xstring" value="fts_agr_food-net-import_pro_liv_abp_hens-egg[%]_right"/>
+<entry key="112" type="xstring" value="fts_agr_food-net-import_pro_liv_abp_processed_afat[%]_right"/>
+<entry key="113" type="xstring" value="fts_agr_food-net-import_pro_liv_abp_processed_offal[%]_right"/>
+<entry key="114" type="xstring" value="fts_agr_food-net-import_pro_liv_meat_bovine[%]_right"/>
+<entry key="115" type="xstring" value="fts_agr_food-net-import_pro_liv_meat_oth-animals[%]_right"/>
+<entry key="116" type="xstring" value="fts_agr_food-net-import_pro_liv_meat_pig[%]_right"/>
+<entry key="117" type="xstring" value="fts_agr_food-net-import_pro_liv_meat_poultry[%]_right"/>
+<entry key="118" type="xstring" value="fts_agr_food-net-import_pro_liv_meat_sheep[%]_right"/>
+<entry key="119" type="xstring" value="lever_alt-protein_right"/>
+<entry key="120" type="xstring" value="fts_agr_alt-protein_abp_dairy-milk_algae[%]_right"/>
+<entry key="121" type="xstring" value="fts_agr_alt-protein_abp_dairy-milk_insect[%]_right"/>
+<entry key="122" type="xstring" value="fts_agr_alt-protein_abp_hens-egg_algae[%]_right"/>
+<entry key="123" type="xstring" value="fts_agr_alt-protein_abp_hens-egg_insect[%]_right"/>
+<entry key="124" type="xstring" value="fts_agr_alt-protein_meat_bovine_algae[%]_right"/>
+<entry key="125" type="xstring" value="fts_agr_alt-protein_meat_bovine_insect[%]_right"/>
+<entry key="126" type="xstring" value="fts_agr_alt-protein_meat_oth-animals_algae[%]_right"/>
+<entry key="127" type="xstring" value="fts_agr_alt-protein_meat_oth-animals_insect[%]_right"/>
+<entry key="128" type="xstring" value="fts_agr_alt-protein_meat_pig_algae[%]_right"/>
+<entry key="129" type="xstring" value="fts_agr_alt-protein_meat_pig_insect[%]_right"/>
+<entry key="130" type="xstring" value="fts_agr_alt-protein_meat_poultry_algae[%]_right"/>
+<entry key="131" type="xstring" value="fts_agr_alt-protein_meat_poultry_insect[%]_right"/>
+<entry key="132" type="xstring" value="fts_agr_alt-protein_meat_sheep_algae[%]_right"/>
+<entry key="133" type="xstring" value="fts_agr_alt-protein_meat_sheep_insect[%]_right"/>
+<entry key="134" type="xstring" value="lever_land-man_right"/>
+<entry key="135" type="xstring" value="fts_agr_land-man_dyn_forest[%]_right"/>
+<entry key="136" type="xstring" value="fts_agr_land-man_dyn_natural-prairies[%]_right"/>
+<entry key="137" type="xstring" value="fts_agr_land-man_dyn_unmanaged[%]_right"/>
+<entry key="138" type="xstring" value="fts_agr_land-man_other[ha]_right"/>
+<entry key="139" type="xstring" value="fts_agr_land-man_pasture_abp_dairy-milk[%]_right"/>
+<entry key="140" type="xstring" value="fts_agr_land-man_pasture_meat_bovine[%]_right"/>
+<entry key="141" type="xstring" value="fts_agr_land-man_pasture_meat_sheep[%]_right"/>
+<entry key="142" type="xstring" value="fts_agr_land-man_settlement[ha]_right"/>
+<entry key="143" type="xstring" value="lever_biomass-hierarchy_right"/>
+<entry key="144" type="xstring" value="fts_agr_biomass-hierarchy_bev_ibp_use_oth_ethanol[%]_right"/>
+<entry key="145" type="xstring" value="fts_agr_biomass-hierarchy_bev_ibp_use_oth_fertilizer[%]_right"/>
+<entry key="146" type="xstring" value="fts_agr_biomass-hierarchy_bev_ibp_use_oth_solid_bioenergy[%]_right"/>
+<entry key="147" type="xstring" value="fts_agr_biomass-hierarchy_bioenergy_fdk-demand_oil_mix_afats[%]_right"/>
+<entry key="148" type="xstring" value="fts_agr_biomass-hierarchy_bioenergy_fdk-demand_oil_mix_uco[%]_right"/>
+<entry key="149" type="xstring" value="fts_agr_biomass-hierarchy_bioenergy_fdk-demand_oil_mix_voil[%]_right"/>
+<entry key="150" type="xstring" value="fts_agr_biomass-hierarchy_bioenergy_fdk-demand_sgr_mix_cereal[%]_right"/>
+<entry key="151" type="xstring" value="fts_agr_biomass-hierarchy_bioenergy_fdk-demand_sgr_mix_sugarcrop[%]_right"/>
+<entry key="152" type="xstring" value="fts_agr_biomass-hierarchy_bioenergy_ibp_fdk[%]_right"/>
+<entry key="153" type="xstring" value="fts_agr_biomass-hierarchy_bioenergy_liquid_biodiesel_tec_btl[%]_right"/>
+<entry key="154" type="xstring" value="fts_agr_biomass-hierarchy_bioenergy_liquid_biodiesel_tec_est[%]_right"/>
+<entry key="155" type="xstring" value="fts_agr_biomass-hierarchy_bioenergy_liquid_biodiesel_tec_hvo[%]_right"/>
+<entry key="156" type="xstring" value="fts_agr_biomass-hierarchy_bioenergy_liquid_ethanol_tec_ezm[%]_right"/>
+<entry key="157" type="xstring" value="fts_agr_biomass-hierarchy_bioenergy_liquid_ethanol_tec_fer[%]_right"/>
+<entry key="158" type="xstring" value="fts_agr_biomass-hierarchy_bioenergy_liquid_jetfuel_tec_btl[%]_right"/>
+<entry key="159" type="xstring" value="fts_agr_biomass-hierarchy_bioenergy_liquid_jetfuel_tec_hvo[%]_right"/>
+<entry key="160" type="xstring" value="fts_agr_biomass-hierarchy_chemical_ibp_fdk[%]_right"/>
+<entry key="161" type="xstring" value="fts_agr_biomass-hierarchy_crop_cereal_burnt-residues[Mt/kcal]_right"/>
+<entry key="162" type="xstring" value="fts_agr_biomass-hierarchy_crop_cereal_soil-residues[Mt/kcal]_right"/>
+<entry key="163" type="xstring" value="fts_agr_biomass-hierarchy_feed_ibp_fdk[%]_right"/>
+<entry key="164" type="xstring" value="fts_agr_biomass-hierarchy_fertilizer_ibp_fdk[%]_right"/>
+<entry key="165" type="xstring" value="fts_agr_biomass-hierarchy_other_ibp_fdk[%]_right"/>
+<entry key="166" type="xstring" value="fts_agr_biomass-hierarchy_residues_share_liquid-bioenergy[%]_right"/>
+<entry key="167" type="xstring" value="fts_agr_biomass-hierarchy_residues_share_oth-uses[%]_right"/>
+<entry key="168" type="xstring" value="fts_agr_biomass-hierarchy_residues_share_solid-bioenergy[%]_right"/>
+<entry key="169" type="xstring" value="fts_agr_biomass-hierarchy_total_energycrop_buffer_energycrop[%]_right"/>
+<entry key="170" type="xstring" value="fts_agr_biomass-hierarchy_total_energycrop_buffer_import[%]_right"/>
+<entry key="171" type="xstring" value="lever_climate-smart-fisheries_right"/>
+<entry key="172" type="xstring" value="fts_agr_climate-smart-fisheries_effort[%]_right"/>
+<entry key="173" type="xstring" value="fts_agr_climate-smart-fisheries_energy[%]_right"/>
+<entry key="174" type="xstring" value="lever_climate-smart-forestry_left"/>
+<entry key="175" type="xstring" value="fts_agr_climate-smart-forestry_management_csf[%]_left"/>
+<entry key="176" type="xstring" value="fts_agr_climate-smart-forestry_management_oth[%]_left"/>
+<entry key="177" type="xstring" value="fts_agr_climate-smart-forestry_use_faws[%]_left"/>
+<entry key="178" type="xstring" value="fts_agr_climate-smart-forestry_use_oth[%]_left"/>
+<entry key="179" type="xstring" value="fts_agr_climate-smart-forestry_use_reserves[%]_left"/>
+<entry key="180" type="xstring" value="lever_climate-smart-crop_left"/>
+<entry key="181" type="xstring" value="fts_agr_climate-smart-crop_chemical_pesticides[t/ha]_left"/>
+<entry key="182" type="xstring" value="fts_agr_climate-smart-crop_energy-demand_diesel[%]_left"/>
+<entry key="183" type="xstring" value="fts_agr_climate-smart-crop_energy-demand_el[%]_left"/>
+<entry key="184" type="xstring" value="fts_agr_climate-smart-crop_energy-demand_el_irrigation[%]_left"/>
+<entry key="185" type="xstring" value="fts_agr_climate-smart-crop_energy-demand_fuel-oil[%]_left"/>
+<entry key="186" type="xstring" value="fts_agr_climate-smart-crop_energy-demand_gasoline[%]_left"/>
+<entry key="187" type="xstring" value="fts_agr_climate-smart-crop_energy-demand_lpg[%]_left"/>
+<entry key="188" type="xstring" value="fts_agr_climate-smart-crop_fertilizer_nitrogen[t/ha]_left"/>
+<entry key="189" type="xstring" value="fts_agr_climate-smart-crop_fertilizer_phosphore[t/ha]_left"/>
+<entry key="190" type="xstring" value="fts_agr_climate-smart-crop_fertilizer_potash[t/ha]_left"/>
+<entry key="191" type="xstring" value="fts_agr_climate-smart-crop_losses_cereal[%]_left"/>
+<entry key="192" type="xstring" value="fts_agr_climate-smart-crop_losses_fruit[%]_left"/>
+<entry key="193" type="xstring" value="fts_agr_climate-smart-crop_losses_oilcrop[%]_left"/>
+<entry key="194" type="xstring" value="fts_agr_climate-smart-crop_losses_pulse[%]_left"/>
+<entry key="195" type="xstring" value="fts_agr_climate-smart-crop_losses_rice[%]_left"/>
+<entry key="196" type="xstring" value="fts_agr_climate-smart-crop_losses_starch[%]_left"/>
+<entry key="197" type="xstring" value="fts_agr_climate-smart-crop_losses_sugarcrop[%]_left"/>
+<entry key="198" type="xstring" value="fts_agr_climate-smart-crop_losses_veg[%]_left"/>
+<entry key="199" type="xstring" value="fts_agr_climate-smart-crop_residues_share_oth-uses[%]_left"/>
+<entry key="200" type="xstring" value="fts_agr_climate-smart-crop_residues_share_soil-quality[%]_left"/>
+<entry key="201" type="xstring" value="fts_agr_climate-smart-crop_total_energy[TWh/ha]_left"/>
+<entry key="202" type="xstring" value="fts_agr_climate-smart-crop_yield_algae[kcal/ha]_left"/>
+<entry key="203" type="xstring" value="fts_agr_climate-smart-crop_yield_cereal[kcal/ha]_left"/>
+<entry key="204" type="xstring" value="fts_agr_climate-smart-crop_yield_energycrop[kcal/ha]_left"/>
+<entry key="205" type="xstring" value="fts_agr_climate-smart-crop_yield_fruit[kcal/ha]_left"/>
+<entry key="206" type="xstring" value="fts_agr_climate-smart-crop_yield_insect[kcal/ha]_left"/>
+<entry key="207" type="xstring" value="fts_agr_climate-smart-crop_yield_oilcrop[kcal/ha]_left"/>
+<entry key="208" type="xstring" value="fts_agr_climate-smart-crop_yield_pulse[kcal/ha]_left"/>
+<entry key="209" type="xstring" value="fts_agr_climate-smart-crop_yield_rice[kcal/ha]_left"/>
+<entry key="210" type="xstring" value="fts_agr_climate-smart-crop_yield_starch[kcal/ha]_left"/>
+<entry key="211" type="xstring" value="fts_agr_climate-smart-crop_yield_sugarcrop[kcal/ha]_left"/>
+<entry key="212" type="xstring" value="fts_agr_climate-smart-crop_yield_veg[kcal/ha]_left"/>
+<entry key="213" type="xstring" value="lever_climate-smart-livestock_left"/>
+<entry key="214" type="xstring" value="fts_agr_climate-smart-livestock_enteric_abp_dairy-milk_CH4-emission[Mt/lsu]_left"/>
+<entry key="215" type="xstring" value="fts_agr_climate-smart-livestock_enteric_meat_bovine_CH4-emission[Mt/lsu]_left"/>
+<entry key="216" type="xstring" value="fts_agr_climate-smart-livestock_enteric_meat_oth-animals_CH4-emission[Mt/lsu]_left"/>
+<entry key="217" type="xstring" value="fts_agr_climate-smart-livestock_enteric_meat_pig_CH4-emission[Mt/lsu]_left"/>
+<entry key="218" type="xstring" value="fts_agr_climate-smart-livestock_enteric_meat_sheep_CH4-emission[Mt/lsu]_left"/>
+<entry key="219" type="xstring" value="fts_agr_climate-smart-livestock_losses_abp_dairy-milk[%]_left"/>
+<entry key="220" type="xstring" value="fts_agr_climate-smart-livestock_losses_abp_hens-egg[%]_left"/>
+<entry key="221" type="xstring" value="fts_agr_climate-smart-livestock_losses_abp_processed_afat[%]_left"/>
+<entry key="222" type="xstring" value="fts_agr_climate-smart-livestock_losses_abp_processed_offal[%]_left"/>
+<entry key="223" type="xstring" value="fts_agr_climate-smart-livestock_losses_meat_bovine[%]_left"/>
+<entry key="224" type="xstring" value="fts_agr_climate-smart-livestock_losses_meat_oth-animals[%]_left"/>
+<entry key="225" type="xstring" value="fts_agr_climate-smart-livestock_losses_meat_pig[%]_left"/>
+<entry key="226" type="xstring" value="fts_agr_climate-smart-livestock_losses_meat_poultry[%]_left"/>
+<entry key="227" type="xstring" value="fts_agr_climate-smart-livestock_losses_meat_sheep[%]_left"/>
+<entry key="228" type="xstring" value="fts_agr_climate-smart-livestock_manure_abp_dairy-milk_applied[%]_left"/>
+<entry key="229" type="xstring" value="fts_agr_climate-smart-livestock_manure_abp_dairy-milk_pasture[%]_left"/>
+<entry key="230" type="xstring" value="fts_agr_climate-smart-livestock_manure_abp_dairy-milk_treated[%]_left"/>
+<entry key="231" type="xstring" value="fts_agr_climate-smart-livestock_manure_abp_hens-egg_applied[%]_left"/>
+<entry key="232" type="xstring" value="fts_agr_climate-smart-livestock_manure_abp_hens-egg_pasture[%]_left"/>
+<entry key="233" type="xstring" value="fts_agr_climate-smart-livestock_manure_abp_hens-egg_treated[%]_left"/>
+<entry key="234" type="xstring" value="fts_agr_climate-smart-livestock_manure_meat_bovine_applied[%]_left"/>
+<entry key="235" type="xstring" value="fts_agr_climate-smart-livestock_manure_meat_bovine_pasture[%]_left"/>
+<entry key="236" type="xstring" value="fts_agr_climate-smart-livestock_manure_meat_bovine_treated[%]_left"/>
+<entry key="237" type="xstring" value="fts_agr_climate-smart-livestock_manure_meat_oth-animals_applied[%]_left"/>
+<entry key="238" type="xstring" value="fts_agr_climate-smart-livestock_manure_meat_oth-animals_pasture[%]_left"/>
+<entry key="239" type="xstring" value="fts_agr_climate-smart-livestock_manure_meat_oth-animals_treated[%]_left"/>
+<entry key="240" type="xstring" value="fts_agr_climate-smart-livestock_manure_meat_pig_applied[%]_left"/>
+<entry key="241" type="xstring" value="fts_agr_climate-smart-livestock_manure_meat_pig_pasture[%]_left"/>
+<entry key="242" type="xstring" value="fts_agr_climate-smart-livestock_manure_meat_pig_treated[%]_left"/>
+<entry key="243" type="xstring" value="fts_agr_climate-smart-livestock_manure_meat_poultry_applied[%]_left"/>
+<entry key="244" type="xstring" value="fts_agr_climate-smart-livestock_manure_meat_poultry_pasture[%]_left"/>
+<entry key="245" type="xstring" value="fts_agr_climate-smart-livestock_manure_meat_poultry_treated[%]_left"/>
+<entry key="246" type="xstring" value="fts_agr_climate-smart-livestock_manure_meat_sheep_applied[%]_left"/>
+<entry key="247" type="xstring" value="fts_agr_climate-smart-livestock_manure_meat_sheep_pasture[%]_left"/>
+<entry key="248" type="xstring" value="fts_agr_climate-smart-livestock_manure_meat_sheep_treated[%]_left"/>
+<entry key="249" type="xstring" value="fts_agr_climate-smart-livestock_pasture_grazing-intensity[kcal/ha]_left"/>
+<entry key="250" type="xstring" value="fts_agr_climate-smart-livestock_slaughtered_meat_bovine[%]_left"/>
+<entry key="251" type="xstring" value="fts_agr_climate-smart-livestock_slaughtered_meat_oth-animals[%]_left"/>
+<entry key="252" type="xstring" value="fts_agr_climate-smart-livestock_slaughtered_meat_pig[%]_left"/>
+<entry key="253" type="xstring" value="fts_agr_climate-smart-livestock_slaughtered_meat_poultry[%]_left"/>
+<entry key="254" type="xstring" value="fts_agr_climate-smart-livestock_slaughtered_meat_sheep[%]_left"/>
+<entry key="255" type="xstring" value="fts_agr_climate-smart-livestock_yield_abp_dairy-milk[kcal/lsu]_left"/>
+<entry key="256" type="xstring" value="fts_agr_climate-smart-livestock_yield_abp_hens-egg[kcal/lsu]_left"/>
+<entry key="257" type="xstring" value="fts_agr_climate-smart-livestock_yield_meat_bovine[kcal/lsu]_left"/>
+<entry key="258" type="xstring" value="fts_agr_climate-smart-livestock_yield_meat_oth-animals[kcal/lsu]_left"/>
+<entry key="259" type="xstring" value="fts_agr_climate-smart-livestock_yield_meat_pig[kcal/lsu]_left"/>
+<entry key="260" type="xstring" value="fts_agr_climate-smart-livestock_yield_meat_poultry[kcal/lsu]_left"/>
+<entry key="261" type="xstring" value="fts_agr_climate-smart-livestock_yield_meat_sheep[kcal/lsu]_left"/>
+<entry key="262" type="xstring" value="lever_food-net-import_left"/>
+<entry key="263" type="xstring" value="fts_agr_food-net-import_crop_cereal[%]_left"/>
+<entry key="264" type="xstring" value="fts_agr_food-net-import_crop_fruit[%]_left"/>
+<entry key="265" type="xstring" value="fts_agr_food-net-import_crop_oilcrop[%]_left"/>
+<entry key="266" type="xstring" value="fts_agr_food-net-import_crop_pulse[%]_left"/>
+<entry key="267" type="xstring" value="fts_agr_food-net-import_crop_rice[%]_left"/>
+<entry key="268" type="xstring" value="fts_agr_food-net-import_crop_starch[%]_left"/>
+<entry key="269" type="xstring" value="fts_agr_food-net-import_crop_stm[%]_left"/>
+<entry key="270" type="xstring" value="fts_agr_food-net-import_crop_sugarcrop[%]_left"/>
+<entry key="271" type="xstring" value="fts_agr_food-net-import_crop_veg[%]_left"/>
+<entry key="272" type="xstring" value="fts_agr_food-net-import_pro_bev_beer[%]_left"/>
+<entry key="273" type="xstring" value="fts_agr_food-net-import_pro_bev_bev-alc[%]_left"/>
+<entry key="274" type="xstring" value="fts_agr_food-net-import_pro_bev_bev-fer[%]_left"/>
+<entry key="275" type="xstring" value="fts_agr_food-net-import_pro_bev_wine[%]_left"/>
+<entry key="276" type="xstring" value="fts_agr_food-net-import_pro_crop_processeced_cake[%]_left"/>
+<entry key="277" type="xstring" value="fts_agr_food-net-import_pro_crop_processed_molasse[%]_left"/>
+<entry key="278" type="xstring" value="fts_agr_food-net-import_pro_crop_processed_non-food-alcohol[%]_left"/>
+<entry key="279" type="xstring" value="fts_agr_food-net-import_pro_crop_processed_sugar[%]_left"/>
+<entry key="280" type="xstring" value="fts_agr_food-net-import_pro_crop_processed_sweet-oth[%]_left"/>
+<entry key="281" type="xstring" value="fts_agr_food-net-import_pro_crop_processed_voil[%]_left"/>
+<entry key="282" type="xstring" value="fts_agr_food-net-import_pro_liv_abp_dairy-milk[%]_left"/>
+<entry key="283" type="xstring" value="fts_agr_food-net-import_pro_liv_abp_hens-egg[%]_left"/>
+<entry key="284" type="xstring" value="fts_agr_food-net-import_pro_liv_abp_processed_afat[%]_left"/>
+<entry key="285" type="xstring" value="fts_agr_food-net-import_pro_liv_abp_processed_offal[%]_left"/>
+<entry key="286" type="xstring" value="fts_agr_food-net-import_pro_liv_meat_bovine[%]_left"/>
+<entry key="287" type="xstring" value="fts_agr_food-net-import_pro_liv_meat_oth-animals[%]_left"/>
+<entry key="288" type="xstring" value="fts_agr_food-net-import_pro_liv_meat_pig[%]_left"/>
+<entry key="289" type="xstring" value="fts_agr_food-net-import_pro_liv_meat_poultry[%]_left"/>
+<entry key="290" type="xstring" value="fts_agr_food-net-import_pro_liv_meat_sheep[%]_left"/>
+<entry key="291" type="xstring" value="lever_alt-protein_left"/>
+<entry key="292" type="xstring" value="fts_agr_alt-protein_abp_dairy-milk_algae[%]_left"/>
+<entry key="293" type="xstring" value="fts_agr_alt-protein_abp_dairy-milk_insect[%]_left"/>
+<entry key="294" type="xstring" value="fts_agr_alt-protein_abp_hens-egg_algae[%]_left"/>
+<entry key="295" type="xstring" value="fts_agr_alt-protein_abp_hens-egg_insect[%]_left"/>
+<entry key="296" type="xstring" value="fts_agr_alt-protein_meat_bovine_algae[%]_left"/>
+<entry key="297" type="xstring" value="fts_agr_alt-protein_meat_bovine_insect[%]_left"/>
+<entry key="298" type="xstring" value="fts_agr_alt-protein_meat_oth-animals_algae[%]_left"/>
+<entry key="299" type="xstring" value="fts_agr_alt-protein_meat_oth-animals_insect[%]_left"/>
+<entry key="300" type="xstring" value="fts_agr_alt-protein_meat_pig_algae[%]_left"/>
+<entry key="301" type="xstring" value="fts_agr_alt-protein_meat_pig_insect[%]_left"/>
+<entry key="302" type="xstring" value="fts_agr_alt-protein_meat_poultry_algae[%]_left"/>
+<entry key="303" type="xstring" value="fts_agr_alt-protein_meat_poultry_insect[%]_left"/>
+<entry key="304" type="xstring" value="fts_agr_alt-protein_meat_sheep_algae[%]_left"/>
+<entry key="305" type="xstring" value="fts_agr_alt-protein_meat_sheep_insect[%]_left"/>
+<entry key="306" type="xstring" value="lever_land-man_left"/>
+<entry key="307" type="xstring" value="fts_agr_land-man_dyn_forest[%]_left"/>
+<entry key="308" type="xstring" value="fts_agr_land-man_dyn_natural-prairies[%]_left"/>
+<entry key="309" type="xstring" value="fts_agr_land-man_dyn_unmanaged[%]_left"/>
+<entry key="310" type="xstring" value="fts_agr_land-man_other[ha]_left"/>
+<entry key="311" type="xstring" value="fts_agr_land-man_pasture_abp_dairy-milk[%]_left"/>
+<entry key="312" type="xstring" value="fts_agr_land-man_pasture_meat_bovine[%]_left"/>
+<entry key="313" type="xstring" value="fts_agr_land-man_pasture_meat_sheep[%]_left"/>
+<entry key="314" type="xstring" value="fts_agr_land-man_settlement[ha]_left"/>
+<entry key="315" type="xstring" value="lever_climate-smart-fisheries_left"/>
+<entry key="316" type="xstring" value="fts_agr_climate-smart-fisheries_effort[%]_left"/>
+<entry key="317" type="xstring" value="fts_agr_climate-smart-fisheries_energy[%]_left"/>
+<entry key="318" type="xstring" value="lever_biomass-hierarchy_left"/>
+<entry key="319" type="xstring" value="fts_agr_biomass-hierarchy_bev_ibp_use_oth_ethanol[%]_left"/>
+<entry key="320" type="xstring" value="fts_agr_biomass-hierarchy_bev_ibp_use_oth_fertilizer[%]_left"/>
+<entry key="321" type="xstring" value="fts_agr_biomass-hierarchy_bev_ibp_use_oth_solid_bioenergy[%]_left"/>
+<entry key="322" type="xstring" value="fts_agr_biomass-hierarchy_bioenergy_fdk-demand_oil_mix_afats[%]_left"/>
+<entry key="323" type="xstring" value="fts_agr_biomass-hierarchy_bioenergy_fdk-demand_oil_mix_uco[%]_left"/>
+<entry key="324" type="xstring" value="fts_agr_biomass-hierarchy_bioenergy_fdk-demand_oil_mix_voil[%]_left"/>
+<entry key="325" type="xstring" value="fts_agr_biomass-hierarchy_bioenergy_fdk-demand_sgr_mix_cereal[%]_left"/>
+<entry key="326" type="xstring" value="fts_agr_biomass-hierarchy_bioenergy_fdk-demand_sgr_mix_sugarcrop[%]_left"/>
+<entry key="327" type="xstring" value="fts_agr_biomass-hierarchy_bioenergy_ibp_fdk[%]_left"/>
+<entry key="328" type="xstring" value="fts_agr_biomass-hierarchy_bioenergy_liquid_biodiesel_tec_btl[%]_left"/>
+<entry key="329" type="xstring" value="fts_agr_biomass-hierarchy_bioenergy_liquid_biodiesel_tec_est[%]_left"/>
+<entry key="330" type="xstring" value="fts_agr_biomass-hierarchy_bioenergy_liquid_biodiesel_tec_hvo[%]_left"/>
+<entry key="331" type="xstring" value="fts_agr_biomass-hierarchy_bioenergy_liquid_ethanol_tec_ezm[%]_left"/>
+<entry key="332" type="xstring" value="fts_agr_biomass-hierarchy_bioenergy_liquid_ethanol_tec_fer[%]_left"/>
+<entry key="333" type="xstring" value="fts_agr_biomass-hierarchy_bioenergy_liquid_jetfuel_tec_btl[%]_left"/>
+<entry key="334" type="xstring" value="fts_agr_biomass-hierarchy_bioenergy_liquid_jetfuel_tec_hvo[%]_left"/>
+<entry key="335" type="xstring" value="fts_agr_biomass-hierarchy_chemical_ibp_fdk[%]_left"/>
+<entry key="336" type="xstring" value="fts_agr_biomass-hierarchy_crop_cereal_burnt-residues[Mt/kcal]_left"/>
+<entry key="337" type="xstring" value="fts_agr_biomass-hierarchy_crop_cereal_soil-residues[Mt/kcal]_left"/>
+<entry key="338" type="xstring" value="fts_agr_biomass-hierarchy_feed_ibp_fdk[%]_left"/>
+<entry key="339" type="xstring" value="fts_agr_biomass-hierarchy_fertilizer_ibp_fdk[%]_left"/>
+<entry key="340" type="xstring" value="fts_agr_biomass-hierarchy_other_ibp_fdk[%]_left"/>
+<entry key="341" type="xstring" value="fts_agr_biomass-hierarchy_residues_share_liquid-bioenergy[%]_left"/>
+<entry key="342" type="xstring" value="fts_agr_biomass-hierarchy_residues_share_oth-uses[%]_left"/>
+<entry key="343" type="xstring" value="fts_agr_biomass-hierarchy_residues_share_solid-bioenergy[%]_left"/>
+<entry key="344" type="xstring" value="fts_agr_biomass-hierarchy_total_energycrop_buffer_energycrop[%]_left"/>
+<entry key="345" type="xstring" value="fts_agr_biomass-hierarchy_total_energycrop_buffer_import[%]_left"/>
+</config>
+<config key="excluded_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+<config key="name_pattern">
+<entry key="pattern" type="xstring" value="(.*)_left"/>
+<entry key="type" type="xstring" value="Regex"/>
+<entry key="caseSensitive" type="xboolean" value="true"/>
+</config>
+<config key="datatype">
+<config key="typelist">
+<entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+</config>
+</config>
+</config>
+</config>
+</config>
+<config key="single-selection-653">
+<entry key="variable_value" type="xstring" value="Python"/>
+</config>
+</config>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value="Subtract right%%00013%%00010from left columns"/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="-33"/>
+<entry key="y-coordinate" type="xint" value="179"/>
+<entry key="width" type="xint" value="106"/>
+<entry key="height" type="xint" value="30"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="16777215"/>
+<entry key="defFontSize" type="xint" value="9"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
+<entry key="customDescription" type="xstring" value="Execute an operation on two groups of columns, matching them one-to-one using a capture group defined in the regex expressions."/>
+<entry key="state" type="xstring" value="IDLE"/>
+<entry key="virtual-in-ID" type="xint" value="650"/>
+<config key="inports">
+<config key="inport_0">
+<entry key="index" type="xint" value="0"/>
+<config key="type">
+<entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+</config>
+</config>
+</config>
+<entry key="virtual-out-ID" type="xint" value="443"/>
+<config key="outports">
+<config key="outport_0">
+<entry key="index" type="xint" value="0"/>
+<config key="type">
+<entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+</config>
+</config>
+</config>
+<config key="workflow_template_information">
+<entry key="role" type="xstring" value="Link"/>
+<entry key="timestamp" type="xstring" value="2019-04-03 14:05:51"/>
+<entry key="sourceURI" type="xstring" value="knime://LOCAL/_common/lib/metanodes/EUCalc%20-%20Tree%20parallel%20operation"/>
+</config>
+<config key="layoutInfos"/>
+<entry key="layoutJSON" type="xstring" value="{&quot;rows&quot;:[{&quot;type&quot;:&quot;row&quot;},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;nodeID&quot;:&quot;444&quot;,&quot;scrolling&quot;:false,&quot;sizeHeight&quot;:true,&quot;sizeWidth&quot;:false,&quot;autoResize&quot;:true}],&quot;widthMD&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;nodeID&quot;:&quot;445&quot;,&quot;scrolling&quot;:false,&quot;sizeHeight&quot;:true,&quot;sizeWidth&quot;:false,&quot;autoResize&quot;:true}],&quot;widthMD&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;nodeID&quot;:&quot;446&quot;,&quot;scrolling&quot;:false,&quot;sizeHeight&quot;:true,&quot;sizeWidth&quot;:false,&quot;autoResize&quot;:true}],&quot;widthMD&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;nodeID&quot;:&quot;454&quot;,&quot;scrolling&quot;:false,&quot;sizeHeight&quot;:true,&quot;sizeWidth&quot;:false,&quot;autoResize&quot;:true}],&quot;widthMD&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;nodeID&quot;:&quot;460&quot;,&quot;scrolling&quot;:false,&quot;sizeHeight&quot;:true,&quot;sizeWidth&quot;:false,&quot;autoResize&quot;:true}],&quot;widthMD&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;nodeID&quot;:&quot;463&quot;,&quot;scrolling&quot;:false,&quot;sizeHeight&quot;:true,&quot;sizeWidth&quot;:false,&quot;autoResize&quot;:true}],&quot;widthMD&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;nodeID&quot;:&quot;359&quot;,&quot;scrolling&quot;:false,&quot;sizeHeight&quot;:true,&quot;sizeWidth&quot;:false,&quot;autoResize&quot;:true}],&quot;widthMD&quot;:12}]}]}"/>
+</config>

@@ -1,0 +1,25 @@
+﻿energycarrier EUCalc;energy_carrier_switzerland
+choose and define in knime://LOCAL/_common/data/Switzerland/ecmap.csv;Energy product - Total
+choose and define in knime://LOCAL/_common/data/Switzerland/ecmap.csv;1. Fossil energy products
+choose and define in knime://LOCAL/_common/data/Switzerland/ecmap.csv;1.1. Petroleum products
+liquid-ff-heatingoil;1.1.1. Crude oil
+liquid-ff-heatingoil;1.1.2. Heating gasoil
+liquid-ff-heatingoil;1.1.3. Residual fuel oil
+liquid-ff-gasoline;1.1.4. Gasoline
+liquid-ff-diesel;1.1.5. Diesel
+liquid-ff-kerosene;1.1.6. Aviation fuel
+solid-ff-coal;1.1.7. Petroleum Coke
+liquid-ff-gasoline;1.1.8. Other petroleum products
+liquid-ff-heatingoil;1.1.9. Non-energy use of petroleum products
+solid-ff-coal;1.2. Coal
+gas-ff-natural;1.3. Natural gas
+solid-waste;2. Waste (not biomass)
+choose and define in knime://LOCAL/_common/data/Switzerland/ecmap.csv;3. Renewable energies
+solid-bio;3.1. Waste (biomass)
+solid-bio;3.2. Wood and charcoal
+gas-bio;3.3. Biogas and biofuels
+heat-amb-geo-sol;3.4. Geothermal, ambient and solar heat
+heat-nuclear;4. Nuclear fuels
+electricity;5. Electricity
+heat-district;6. District heating
+CO2;CO2 without biomass

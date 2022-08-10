@@ -1,0 +1,89 @@
+
+{
+    "type":"object",
+    "properties":{
+        "single-selection-515:528":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"linear interpolation"
+                }
+            },
+            "description":"Choose the completion method",
+            "example":{
+                "variable_value":"linear interpolation"
+            }
+        },
+        "boolean-input-0:360":{
+            "type":"boolean",
+            "default":"true",
+            "description":"Enter Description",
+            "example":true
+        },
+        "data-type-0:357":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"array",
+                    "items":{
+                        "type":"string",
+                        "default":"historical"
+                    }
+                }
+            },
+            "description":"Enter Description",
+            "example":{
+                "variable_value":[
+                    "historical",
+                    "projection"
+                ]
+            }
+        },
+        "single-selection-515:523":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"No"
+                }
+            },
+            "description":"Replace negative values by 0",
+            "example":{
+                "variable_value":"No"
+            }
+        },
+        "string-input-0:343":{
+            "type":"string",
+            "default":"training",
+            "description":"the lever name should be the same as the file name (without prefix ots-fts-ll)",
+            "example":"training"
+        },
+        "column-filter-515:535":{
+            "type":"object",
+            "properties":{
+                "columns":{
+                    "type":"array"
+                }
+            },
+            "description":"Select the columns for data completion",
+            "example":{
+                "columns":[
+                ]
+            }
+        },
+        "single-selection-0:355":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"_common"
+                }
+            },
+            "description":"Module Selection",
+            "example":{
+                "variable_value":"_common"
+            }
+        }
+    }
+}

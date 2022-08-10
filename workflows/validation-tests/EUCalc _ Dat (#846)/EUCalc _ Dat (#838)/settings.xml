@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="single-selection-816">
+<entry key="variable_value" type="xstring" value="No"/>
+</config>
+</config>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value=""/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="28"/>
+<entry key="y-coordinate" type="xint" value="280"/>
+<entry key="width" type="xint" value="106"/>
+<entry key="height" type="xint" value="15"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="0"/>
+<entry key="defFontSize" type="xint" value="-1"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="CONFIGURED"/>
+<config key="nodecontainer_message">
+<entry key="type" type="xstring" value="ERROR"/>
+<entry key="message" type="xstring" value="Not all contained nodes are executed:%%00010EUCalc - Data Validation 3:846:0:838:0: CONFIGURED (start)%%00010  Create Collection Column 3:846:0:838:0:783 (EXECUTED)%%00010  Column Rename (Regex) 3:846:0:838:0:795 (EXECUTED)%%00010  Column Appender 3:846:0:838:0:797 (EXECUTED)%%00010  Java Snippet 3:846:0:838:0:798 (EXECUTED)%%00010  WrappedNode Input 3:846:0:838:0:799 (EXECUTED)%%00010  Unpivoting 3:846:0:838:0:804 (EXECUTED)%%00010  Extract Column Header 3:846:0:838:0:805 (EXECUTED)%%00010  Table Column to Variable 3:846:0:838:0:807 (EXECUTED)%%00010  Pivoting 3:846:0:838:0:808 (EXECUTED)%%00010  Pivoting 3:846:0:838:0:809 (EXECUTED)%%00010  Unpivoting 3:846:0:838:0:810 (EXECUTED)%%00010  Column List Loop Start 3:846:0:838:0:813 (EXECUTED)%%00010  Column Filter 3:846:0:838:0:814 (EXECUTED)%%00010  Loop End 3:846:0:838:0:815 (EXECUTED)%%00010  Column Appender 3:846:0:838:0:816 (EXECUTED)%%00010  Number To String 3:846:0:838:0:817 (EXECUTED)%%00010  Number To String 3:846:0:838:0:818 (EXECUTED)%%00010  Table Validator (Reference) 3:846:0:838:0:819 (EXECUTED)%%00010  Column Rename (Regex) 3:846:0:838:0:821 (EXECUTED)%%00010  GroupBy 3:846:0:838:0:822 (EXECUTED)%%00010  Column Combiner 3:846:0:838:0:823 (EXECUTED)%%00010  Column Filter 3:846:0:838:0:824 (EXECUTED)%%00010  Table Creator 3:846:0:838:0:825 (EXECUTED)%%00010  Table Validator (Reference) 3:846:0:838:0:826 (EXECUTED)%%00010  Column Rename (Regex) 3:846:0:838:0:827 (EXECUTED)%%00010  Create Collection Column 3:846:0:838:0:828 (EXECUTED)%%00010  GroupBy 3:846:0:838:0:829 (EXECUTED)%%00010  Column Rename (Regex) 3:846:0:838:0:830 (EXECUTED)%%00010  Column Rename (Regex) 3:846:0:838:0:831 (EXECUTED)%%00010  Create Collection Column 3:846:0:838:0:832 (EXECUTED)%%00010  Table Validator (Reference) 3:846:0:838:0:835 (CONFIGURED)*%%00010  WrappedNode Output 3:846:0:838:0:839 (CONFIGURED)*%%00010  Math Formula (Multi Column) 3:846:0:838:0:840 (EXECUTED)%%00010EUCalc - Data Validation 3:846:0:838:0(end)%%00010"/>
+</config>
+<entry key="virtual-in-ID" type="xint" value="799"/>
+<config key="inports">
+<config key="inport_0">
+<entry key="index" type="xint" value="0"/>
+<config key="type">
+<entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+</config>
+</config>
+<config key="inport_1">
+<entry key="index" type="xint" value="1"/>
+<config key="type">
+<entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+</config>
+</config>
+</config>
+<entry key="virtual-out-ID" type="xint" value="839"/>
+<config key="outports">
+<config key="outport_0">
+<entry key="index" type="xint" value="0"/>
+<config key="type">
+<entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+</config>
+</config>
+</config>
+<config key="workflow_template_information">
+<entry key="role" type="xstring" value="Link"/>
+<entry key="timestamp" type="xstring" value="2018-10-25 12:46:43"/>
+<entry key="sourceURI" type="xstring" value="knime://LOCAL/_common/lib/metanodes/EUCalc%20-%20Data%20Validation"/>
+</config>
+<config key="layoutInfos"/>
+<entry key="layoutJSON" type="xstring" value=""/>
+</config>

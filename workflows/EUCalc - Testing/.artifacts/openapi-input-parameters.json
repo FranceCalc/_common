@@ -1,0 +1,527 @@
+
+{
+    "type":"object",
+    "properties":{
+        "string-input-544:732:444":{
+            "type":"string",
+            "default":"compared",
+            "description":"Name of resulting columns. The name will be appended with the iterator(s) (see below).",
+            "example":"compared"
+        },
+        "string-input-544:732:445":{
+            "type":"string",
+            "default":"(.*)_left",
+            "description":"Pattern selecting the first group of columns. The resulting columns will be appended with the iterator, which is a Regex capture group embedded in the pattern. \nExample: \"sector_variable_(.*)\\[.*\" to use the last item before the unit as the iterator. \n\nNote that these patterns can also be used to identify flow variables. They work exactly the same, flow variables matching the name will be transformed into columns in the data (with the same value for every row).",
+            "example":"(.*)_left"
+        },
+        "single-selection-25:528":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"linear interpolation"
+                }
+            },
+            "description":"Choose the completion method",
+            "example":{
+                "variable_value":"linear interpolation"
+            }
+        },
+        "string-input-544:732:446":{
+            "type":"string",
+            "default":"(.*)_right",
+            "description":"Pattern selecting the second group of columns. The columns in this group will be matched with columns from the first group using the iterator. The iterator is defined similarly to the pattern in group 1. \nExample: single column \"sector_demand_.*\", multiple columns \"sector_variable_(.*)\\[.*\"\n\nThis pattern can also optionally include a second iterator for combining each column from the first group with multiple columns from the second group.\nExample: \"sector_variable_(.*)_(.*)\\[.*\"\n\nNote that these patterns can also be used to identify flow variables. They work exactly the same, flow variables matching the name will be transformed into columns in the data (with the same value for every row).",
+            "example":"(.*)_right"
+        },
+        "single-selection-0:528":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"linear interpolation"
+                }
+            },
+            "description":"Choose the completion method",
+            "example":{
+                "variable_value":"linear interpolation"
+            }
+        },
+        "string-input-537:343":{
+            "type":"string",
+            "default":"freight_tkm",
+            "description":"the lever name should be the same as the file name (without prefix ots-fts-ll)",
+            "example":"freight_tkm"
+        },
+        "single-selection-25:523":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"No"
+                }
+            },
+            "description":"Replace negative values by 0",
+            "example":{
+                "variable_value":"No"
+            }
+        },
+        "single-selection-0:523":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"No"
+                }
+            },
+            "description":"Replace negative values by 0",
+            "example":{
+                "variable_value":"No"
+            }
+        },
+        "single-selection-559:523":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"No"
+                }
+            },
+            "description":"Replace negative values by 0",
+            "example":{
+                "variable_value":"No"
+            }
+        },
+        "column-filter-544:732:652":{
+            "type":"object",
+            "properties":{
+                "columns":{
+                    "type":"array"
+                }
+            },
+            "description":"This filter is ther for testing purpose. It allows the user to test the regex pattern used in the Pattern section.",
+            "example":{
+                "columns":[
+                ]
+            }
+        },
+        "string-input-557:581":{
+            "type":"string",
+            "default":"2050",
+            "description":"The Endyear value specify the last year of the projections.",
+            "example":"2050"
+        },
+        "string-input-544:732:460":{
+            "type":"string",
+            "default":"",
+            "description":"New unit for the output columns. Not changing this option or setting it to \"unit\" keeps the unit from the first column group.",
+            "example":""
+        },
+        "column-filter-23:535":{
+            "type":"object",
+            "properties":{
+                "columns":{
+                    "type":"array"
+                }
+            },
+            "description":"Select the columns for data completion",
+            "example":{
+                "columns":[
+                ]
+            }
+        },
+        "column-filter-515:535":{
+            "type":"object",
+            "properties":{
+                "columns":{
+                    "type":"array"
+                }
+            },
+            "description":"Select the columns for data completion",
+            "example":{
+                "columns":[
+                ]
+            }
+        },
+        "boolean-input-544:732:586":{
+            "type":"boolean",
+            "default":"true",
+            "description":"Remove columns used in the calculation.",
+            "example":true
+        },
+        "single-selection-537:355":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"_common"
+                }
+            },
+            "description":"Module Selection",
+            "example":{
+                "variable_value":"_common"
+            }
+        },
+        "column-filter-533:844":{
+            "type":"object",
+            "properties":{
+                "columns":{
+                    "type":"array",
+                    "items":{
+                        "type":"string",
+                        "default":"Years"
+                    }
+                }
+            },
+            "description":"Enter Description",
+            "example":{
+                "columns":[
+                    "Years",
+                    "na.ma",
+                    "linear interp",
+                    "linear regress"
+                ]
+            }
+        },
+        "single-selection-21:528":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"linear interpolation"
+                }
+            },
+            "description":"Choose the completion method",
+            "example":{
+                "variable_value":"linear interpolation"
+            }
+        },
+        "string-input-555:538":{
+            "type":"string",
+            "default":"2015",
+            "description":"The baseyear value specify the projection starting year. \nThis value should be the same as the one used in the Historical Data Completion metanode",
+            "example":"2015"
+        },
+        "single-selection-19:355":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"transport"
+                }
+            },
+            "description":"Module Selection",
+            "example":{
+                "variable_value":"transport"
+            }
+        },
+        "single-selection-559:528":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"linear interpolation"
+                }
+            },
+            "description":"Choose the completion method",
+            "example":{
+                "variable_value":"linear interpolation"
+            }
+        },
+        "string-input-555:579":{
+            "type":"string",
+            "default":"2020",
+            "description":"The Startyear value specify the starting point of the disctinction between the multiple levels. Between Baseyear and Startyear, the Level 1 is applied to all the levels.",
+            "example":"2020"
+        },
+        "single-selection-544:732:653":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"Java"
+                }
+            },
+            "description":"Select code language to use",
+            "example":{
+                "variable_value":"Java"
+            }
+        },
+        "single-selection-21:523":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"No"
+                }
+            },
+            "description":"Replace negative values by 0",
+            "example":{
+                "variable_value":"No"
+            }
+        },
+        "data-type-537:357":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"array",
+                    "items":{
+                        "type":"string",
+                        "default":"historical"
+                    }
+                }
+            },
+            "description":"Enter Description",
+            "example":{
+                "variable_value":[
+                    "historical",
+                    "projection"
+                ]
+            }
+        },
+        "single-selection-558:355":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"transport"
+                }
+            },
+            "description":"Module Selection",
+            "example":{
+                "variable_value":"transport"
+            }
+        },
+        "single-selection-515:528":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"linear interpolation"
+                }
+            },
+            "description":"Choose the completion method",
+            "example":{
+                "variable_value":"linear interpolation"
+            }
+        },
+        "string-input-559:538":{
+            "type":"string",
+            "default":"2015",
+            "description":"The baseyear value specify the last year of the historical value completion method.",
+            "example":"2015"
+        },
+        "string-input-515:538":{
+            "type":"string",
+            "default":"2015",
+            "description":"The baseyear value specify the last year of the historical value completion method.",
+            "example":"2015"
+        },
+        "boolean-input-19:360":{
+            "type":"boolean",
+            "default":"false",
+            "description":"Enter Description",
+            "example":false
+        },
+        "boolean-input-537:360":{
+            "type":"boolean",
+            "default":"true",
+            "description":"Enter Description",
+            "example":true
+        },
+        "string-input-555:581":{
+            "type":"string",
+            "default":"2050",
+            "description":"The Endyear value specify the last year of the projections.",
+            "example":"2050"
+        },
+        "column-filter-21:535":{
+            "type":"object",
+            "properties":{
+                "columns":{
+                    "type":"array"
+                }
+            },
+            "description":"Select the columns for data completion",
+            "example":{
+                "columns":[
+                ]
+            }
+        },
+        "boolean-input-558:809":{
+            "type":"boolean",
+            "default":"true",
+            "description":"Enter Description",
+            "example":true
+        },
+        "column-filter-25:535":{
+            "type":"object",
+            "properties":{
+                "columns":{
+                    "type":"array"
+                }
+            },
+            "description":"Select the columns for data completion",
+            "example":{
+                "columns":[
+                ]
+            }
+        },
+        "single-selection-23:523":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"Yes"
+                }
+            },
+            "description":"Replace negative values by 0",
+            "example":{
+                "variable_value":"Yes"
+            }
+        },
+        "string-input-19:343":{
+            "type":"string",
+            "default":"freight_modal-share",
+            "description":"the lever name should be the same as the file name (without prefix ots-fts-ll)",
+            "example":"freight_modal-share"
+        },
+        "boolean-input-558:808":{
+            "type":"boolean",
+            "default":"true",
+            "description":"Enter Description",
+            "example":true
+        },
+        "single-selection-544:732:463":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"Sum"
+                }
+            },
+            "description":"Method used to combine columns. For asymetric operations, the direction of the operation is specified, e.g. \"Division 2/1\" means dividing columns from the second group by columns from the first group.",
+            "example":{
+                "variable_value":"Sum"
+            }
+        },
+        "string-input-533:843":{
+            "type":"string",
+            "default":"Title",
+            "description":"Enter Description",
+            "example":"Title"
+        },
+        "single-selection-544:732:659:661":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"PARALLEL_OP"
+                }
+            },
+            "description":"Enter Description",
+            "example":{
+                "variable_value":"PARALLEL_OP"
+            }
+        },
+        "string-input-557:579":{
+            "type":"string",
+            "default":"2020",
+            "description":"The Startyear value specify the starting point of the disctinction between the multiple levels. Between Baseyear and Startyear, the Level 1 is applied to all the levels.",
+            "example":"2020"
+        },
+        "single-selection-515:523":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"No"
+                }
+            },
+            "description":"Replace negative values by 0",
+            "example":{
+                "variable_value":"No"
+            }
+        },
+        "string-input-557:538":{
+            "type":"string",
+            "default":"2015",
+            "description":"The baseyear value specify the projection starting year. \nThis value should be the same as the one used in the Historical Data Completion metanode",
+            "example":"2015"
+        },
+        "column-filter-559:535":{
+            "type":"object",
+            "properties":{
+                "columns":{
+                    "type":"array"
+                }
+            },
+            "description":"Select the columns for data completion",
+            "example":{
+                "columns":[
+                ]
+            }
+        },
+        "single-selection-23:528":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"linear regression"
+                }
+            },
+            "description":"Choose the completion method",
+            "example":{
+                "variable_value":"linear regression"
+            }
+        },
+        "data-type-19:357":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"array",
+                    "items":{
+                        "type":"string",
+                        "default":"historical"
+                    }
+                }
+            },
+            "description":"Enter Description",
+            "example":{
+                "variable_value":[
+                    "historical"
+                ]
+            }
+        },
+        "column-filter-0:535":{
+            "type":"object",
+            "properties":{
+                "columns":{
+                    "type":"array"
+                }
+            },
+            "description":"Select the columns for data completion",
+            "example":{
+                "columns":[
+                ]
+            }
+        },
+        "column-filter-557:526":{
+            "type":"object",
+            "properties":{
+                "columns":{
+                    "type":"array",
+                    "items":{
+                        "type":"string",
+                        "default":"lever_freight_demand"
+                    }
+                }
+            },
+            "description":"Enter Description",
+            "example":{
+                "columns":[
+                    "lever_freight_demand"
+                ]
+            }
+        }
+    }
+}

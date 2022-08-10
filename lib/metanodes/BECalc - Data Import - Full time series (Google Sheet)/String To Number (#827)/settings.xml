@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="include_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_filterString"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<config key="include">
+<config key="InclList">
+<entry key="array-size" type="xint" value="35"/>
+<entry key="0" type="xstring" value="2016"/>
+<entry key="1" type="xstring" value="2017"/>
+<entry key="2" type="xstring" value="2018"/>
+<entry key="3" type="xstring" value="2019"/>
+<entry key="4" type="xstring" value="2020"/>
+<entry key="5" type="xstring" value="2021"/>
+<entry key="6" type="xstring" value="2022"/>
+<entry key="7" type="xstring" value="2023"/>
+<entry key="8" type="xstring" value="2024"/>
+<entry key="9" type="xstring" value="2025"/>
+<entry key="10" type="xstring" value="2026"/>
+<entry key="11" type="xstring" value="2027"/>
+<entry key="12" type="xstring" value="2028"/>
+<entry key="13" type="xstring" value="2029"/>
+<entry key="14" type="xstring" value="2030"/>
+<entry key="15" type="xstring" value="2031"/>
+<entry key="16" type="xstring" value="2032"/>
+<entry key="17" type="xstring" value="2033"/>
+<entry key="18" type="xstring" value="2034"/>
+<entry key="19" type="xstring" value="2035"/>
+<entry key="20" type="xstring" value="2036"/>
+<entry key="21" type="xstring" value="2037"/>
+<entry key="22" type="xstring" value="2038"/>
+<entry key="23" type="xstring" value="2039"/>
+<entry key="24" type="xstring" value="2040"/>
+<entry key="25" type="xstring" value="2041"/>
+<entry key="26" type="xstring" value="2042"/>
+<entry key="27" type="xstring" value="2043"/>
+<entry key="28" type="xstring" value="2044"/>
+<entry key="29" type="xstring" value="2045"/>
+<entry key="30" type="xstring" value="2046"/>
+<entry key="31" type="xstring" value="2047"/>
+<entry key="32" type="xstring" value="2048"/>
+<entry key="33" type="xstring" value="2049"/>
+<entry key="34" type="xstring" value="2050"/>
+</config>
+<config key="ExclList">
+<entry key="array-size" type="xint" value="13"/>
+<entry key="0" type="xstring" value="type"/>
+<entry key="1" type="xstring" value="data_name"/>
+<entry key="2" type="xstring" value="data_description"/>
+<entry key="3" type="xstring" value="unit"/>
+<entry key="4" type="xstring" value="completion_method"/>
+<entry key="5" type="xstring" value="geo_granularity"/>
+<entry key="6" type="xstring" value="region"/>
+<entry key="7" type="xstring" value="module"/>
+<entry key="8" type="xstring" value="data_source"/>
+<entry key="9" type="xstring" value="last_update"/>
+<entry key="10" type="xstring" value="hypothesis_or_data_filling"/>
+<entry key="11" type="xstring" value="data_quality"/>
+<entry key="12" type="xstring" value="comment"/>
+</config>
+<entry key="keep_all_columns_selected" type="xboolean" value="false"/>
+</config>
+<entry key="decimal_separator" type="xstring" value="."/>
+<entry key="thousands_separator" type="xstring" value=""/>
+<config key="parse_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<entry key="generic_parse" type="xboolean" value="false"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="CONFIGURED"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.preproc.colconvert.stringtonumber.StringToNumberNodeFactory"/>
+<entry key="node-name" type="xstring" value="String To Number"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.7.2.v201904170949"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Core"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.7.2.v201904171038"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="String To Number"/>
+<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+</config>
+</config>

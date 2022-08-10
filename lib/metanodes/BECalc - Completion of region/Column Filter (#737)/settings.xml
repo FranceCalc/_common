@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="column-filter">
+<entry key="filter-type" type="xstring" value="name_pattern"/>
+<config key="included_names">
+<entry key="array-size" type="xint" value="68"/>
+<entry key="0" type="xstring" value="Years"/>
+<entry key="1" type="xstring" value="Country"/>
+<entry key="2" type="xstring" value="ots_elc_CCS_ratio[%]copy"/>
+<entry key="3" type="xstring" value="ots_elc_capacity_RES_biomass[GW]"/>
+<entry key="4" type="xstring" value="ots_elc_capacity_RES_other_geothermal[GW]"/>
+<entry key="5" type="xstring" value="ots_elc_capacity_RES_other_hydroelectric[GW]"/>
+<entry key="6" type="xstring" value="ots_elc_capacity_RES_other_marine[GW]"/>
+<entry key="7" type="xstring" value="ots_elc_capacity_RES_other_solar-csp[GW]"/>
+<entry key="8" type="xstring" value="ots_elc_capacity_RES_solar-pv[GW]"/>
+<entry key="9" type="xstring" value="ots_elc_capacity_RES_waste[GW]"/>
+<entry key="10" type="xstring" value="ots_elc_capacity_RES_wind-offshore[GW]"/>
+<entry key="11" type="xstring" value="ots_elc_capacity_RES_wind-onshore[GW]"/>
+<entry key="12" type="xstring" value="ots_elc_capacity_fossil_coal[GW]"/>
+<entry key="13" type="xstring" value="ots_elc_capacity_fossil_gas[GW]"/>
+<entry key="14" type="xstring" value="ots_elc_capacity_fossil_oil[GW]"/>
+<entry key="15" type="xstring" value="ots_elc_capacity_nuclear_nuclear[GW]"/>
+<entry key="16" type="xstring" value="ots_elc_direct-air-capture[-]copy"/>
+<entry key="17" type="xstring" value="ots_elc_efficiency-imp_chp_gas-ff-natural[%]copy"/>
+<entry key="18" type="xstring" value="ots_elc_efficiency-imp_chp_liquid-bio[%]copy"/>
+<entry key="19" type="xstring" value="ots_elc_efficiency-imp_chp_liquid-ff-heatingoil[%]copy"/>
+<entry key="20" type="xstring" value="ots_elc_efficiency-imp_chp_solid-bio[%]copy"/>
+<entry key="21" type="xstring" value="ots_elc_efficiency-imp_heat_others_gas-ff-natural[%]copy"/>
+<entry key="22" type="xstring" value="ots_elc_efficiency-imp_heat_others_heat-ambient[%]copy"/>
+<entry key="23" type="xstring" value="ots_elc_efficiency-imp_heat_others_heat-geothermal[%]copy"/>
+<entry key="24" type="xstring" value="ots_elc_efficiency-imp_heat_others_heat-solar[%]copy"/>
+<entry key="25" type="xstring" value="ots_elc_efficiency-imp_heat_others_liquid-ff-heatingoil[%]copy"/>
+<entry key="26" type="xstring" value="ots_elc_efficiency-imp_heat_others_solid-bio[%]copy"/>
+<entry key="27" type="xstring" value="ots_elc_efficiency-imp_heat_others_solid-ff-coal[%]copy"/>
+<entry key="28" type="xstring" value="ots_elc_energy-net-import_heat[%]copy"/>
+<entry key="29" type="xstring" value="ots_elc_gas-switch-to-hydrogen[%]copy"/>
+<entry key="30" type="xstring" value="ots_elc_technology-share_heat_chp_gas-ff-natural[%]copy"/>
+<entry key="31" type="xstring" value="ots_elc_technology-share_heat_chp_liquid-bio[%]copy"/>
+<entry key="32" type="xstring" value="ots_elc_technology-share_heat_chp_liquid-ff-heatingoil[%]copy"/>
+<entry key="33" type="xstring" value="ots_elc_technology-share_heat_chp_solid-bio[%]copy"/>
+<entry key="34" type="xstring" value="ots_elc_technology-share_heat_others_gas-ff-natural[%]copy"/>
+<entry key="35" type="xstring" value="ots_elc_technology-share_heat_others_heat-ambient[%]copy"/>
+<entry key="36" type="xstring" value="ots_elc_technology-share_heat_others_heat-geothermal[%]copy"/>
+<entry key="37" type="xstring" value="ots_elc_technology-share_heat_others_heat-solar[%]copy"/>
+<entry key="38" type="xstring" value="ots_elc_technology-share_heat_others_liquid-ff-heatingoil[%]copy"/>
+<entry key="39" type="xstring" value="ots_elc_technology-share_heat_others_solid-bio[%]copy"/>
+<entry key="40" type="xstring" value="ots_elc_technology-share_heat_others_solid-ff-coal[%]copy"/>
+<entry key="41" type="xstring" value="ots_ref_efficiency-imp_fossil_coal_ref[%]copy"/>
+<entry key="42" type="xstring" value="ots_ref_efficiency-imp_fossil_gas_ref[%]copy"/>
+<entry key="43" type="xstring" value="ots_ref_efficiency-imp_fossil_oil_ref[%]copy"/>
+<entry key="44" type="xstring" value="ots_ref_efficiency-imp_gas-efuels_conv[%]copy"/>
+<entry key="45" type="xstring" value="ots_ref_efficiency-imp_hydrogen_electro[%]copy"/>
+<entry key="46" type="xstring" value="ots_ref_efficiency-imp_hydrogen_steamref[%]copy"/>
+<entry key="47" type="xstring" value="ots_ref_efficiency-imp_liquid-efuels_conv[%]copy"/>
+<entry key="48" type="xstring" value="ots_ref_energy-carrier-switch_refineries_switch-gas-to-biogas[%]copy"/>
+<entry key="49" type="xstring" value="ots_ref_energy-carrier-switch_refineries_switch-gas-to-egas[%]copy"/>
+<entry key="50" type="xstring" value="ots_ref_energy-carrier-switch_refineries_switch-liquid-to-gas[%]copy"/>
+<entry key="51" type="xstring" value="ots_ref_energy-net-import_electricity[%]copy"/>
+<entry key="52" type="xstring" value="ots_ref_energy-net-import_fossil_coal[%]copy"/>
+<entry key="53" type="xstring" value="ots_ref_energy-net-import_fossil_gas[%]copy"/>
+<entry key="54" type="xstring" value="ots_ref_energy-net-import_fossil_oil[%]copy"/>
+<entry key="55" type="xstring" value="ots_ref_energy-net-import_gas-efuels[%]copy"/>
+<entry key="56" type="xstring" value="ots_ref_energy-net-import_hydrogen[%]copy"/>
+<entry key="57" type="xstring" value="ots_ref_energy-net-import_liquid-efuels[%]copy"/>
+<entry key="58" type="xstring" value="ots_ref_fuel-production[TWh]"/>
+<entry key="59" type="xstring" value="ots_ref_link-refineries-to-activity[-]copy"/>
+<entry key="60" type="xstring" value="ots_ref_refinery-CCS-ratio[%]copy"/>
+<entry key="61" type="xstring" value="ots_ref_technology-share_fossil_coal_ref[%]copy"/>
+<entry key="62" type="xstring" value="ots_ref_technology-share_fossil_gas_ref[%]copy"/>
+<entry key="63" type="xstring" value="ots_ref_technology-share_fossil_oil_ref[%]copy"/>
+<entry key="64" type="xstring" value="ots_ref_technology-share_gas-efuels_conv[%]copy"/>
+<entry key="65" type="xstring" value="ots_ref_technology-share_hydrogen_electro[%]copy"/>
+<entry key="66" type="xstring" value="ots_ref_technology-share_hydrogen_steamref[%]copy"/>
+<entry key="67" type="xstring" value="ots_ref_technology-share_liquid-efuels_conv[%]copy"/>
+</config>
+<config key="excluded_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+<config key="name_pattern">
+<entry key="pattern" type="xstring" value="Country|Years|.*\]proportion"/>
+<entry key="type" type="xstring" value="Regex"/>
+<entry key="caseSensitive" type="xboolean" value="false"/>
+</config>
+<config key="datatype">
+<config key="typelist">
+<entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+</config>
+</config>
+</config>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="IDLE"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"/>
+<entry key="node-name" type="xstring" value="Column Filter"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.7.2.v201904170949"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Core"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.7.2.v201904171038"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Column Filter"/>
+<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+</config>
+</config>

@@ -1,0 +1,223 @@
+
+{
+    "type":"object",
+    "properties":{
+        "column-filter-0:1146:652":{
+            "type":"object",
+            "properties":{
+                "columns":{
+                    "type":"array"
+                }
+            },
+            "description":"This filter is ther for testing purpose. It allows the user to test the regex pattern used in the Pattern section.",
+            "example":{
+                "columns":[
+                ]
+            }
+        },
+        "single-selection-0:1150:463":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"Division 1/2"
+                }
+            },
+            "description":"Method used to combine columns. For asymetric operations, the direction of the operation is specified, e.g. \"Division 2/1\" means dividing columns from the second group by columns from the first group.",
+            "example":{
+                "variable_value":"Division 1/2"
+            }
+        },
+        "boolean-input-0:1146:586":{
+            "type":"boolean",
+            "default":"true",
+            "description":"Remove columns used in the calculation.",
+            "example":true
+        },
+        "single-selection-0:1146:463":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"Product"
+                }
+            },
+            "description":"Method used to combine columns. For asymetric operations, the direction of the operation is specified, e.g. \"Division 2/1\" means dividing columns from the second group by columns from the first group.",
+            "example":{
+                "variable_value":"Product"
+            }
+        },
+        "boolean-input-0:1150:586":{
+            "type":"boolean",
+            "default":"false",
+            "description":"Remove columns used in the calculation.",
+            "example":false
+        },
+        "single-selection-0:1151:463":{
+            "type":"object",
+            "properties":{
+                "variable_value":{
+                    "type":"string",
+                    "default":"Subtraction 1-2"
+                }
+            },
+            "description":"Method used to combine columns. For asymetric operations, the direction of the operation is specified, e.g. \"Division 2/1\" means dividing columns from the second group by columns from the first group.",
+            "example":{
+                "variable_value":"Subtraction 1-2"
+            }
+        },
+        "string-input-0:1151:460":{
+            "type":"string",
+            "default":"unit",
+            "description":"New unit for the output columns. Not changing this option or setting it to \"unit\" keeps the unit from the first column group.",
+            "example":"unit"
+        },
+        "string-input-0:1151:444":{
+            "type":"string",
+            "default":"cal_delta",
+            "description":"Name of resulting columns. The name will be appended with the iterator(s) (see below).",
+            "example":"cal_delta"
+        },
+        "string-input-0:1146:444":{
+            "type":"string",
+            "default":"fts_new-column",
+            "description":"Name of resulting columns. The name will be appended with the iterator(s) (see below).",
+            "example":"fts_new-column"
+        },
+        "string-input-0:1146:445":{
+            "type":"string",
+            "default":"cal_rate_(.*)\\[%\\]",
+            "description":"Pattern selecting the first group of columns. The resulting columns will be appended with the iterator, which is a Regex capture group embedded in the pattern. \nExample: \"sector_variable_(.*)\\[.*\" to use the last item before the unit as the iterator. \n\nNote that these patterns can also be used to identify flow variables. They work exactly the same, flow variables matching the name will be transformed into columns in the data (with the same value for every row).",
+            "example":"cal_rate_(.*)\\[%\\]"
+        },
+        "string-input-0:1146:446":{
+            "type":"string",
+            "default":"lfs_fwaste_(.*)\\[.*",
+            "description":"Pattern selecting the second group of columns. The columns in this group will be matched with columns from the first group using the iterator. The iterator is defined similarly to the pattern in group 1. \nExample: single column \"sector_demand_.*\", multiple columns \"sector_variable_(.*)\\[.*\"\n\nThis pattern can also optionally include a second iterator for combining each column from the first group with multiple columns from the second group.\nExample: \"sector_variable_(.*)_(.*)\\[.*\"\n\nNote that these patterns can also be used to identify flow variables. They work exactly the same, flow variables matching the name will be transformed into columns in the data (with the same value for every row).",
+            "example":"lfs_fwaste_(.*)\\[.*"
+        },
+        "string-input-0:1150:446":{
+            "type":"string",
+            "default":"lfs_fwaste_(.*)\\[.*",
+            "description":"Pattern selecting the second group of columns. The columns in this group will be matched with columns from the first group using the iterator. The iterator is defined similarly to the pattern in group 1. \nExample: single column \"sector_demand_.*\", multiple columns \"sector_variable_(.*)\\[.*\"\n\nThis pattern can also optionally include a second iterator for combining each column from the first group with multiple columns from the second group.\nExample: \"sector_variable_(.*)_(.*)\\[.*\"\n\nNote that these patterns can also be used to identify flow variables. They work exactly the same, flow variables matching the name will be transformed into columns in the data (with the same value for every row).",
+            "example":"lfs_fwaste_(.*)\\[.*"
+        },
+        "boolean-input-0:1151:586":{
+            "type":"boolean",
+            "default":"false",
+            "description":"Remove columns used in the calculation.",
+            "example":false
+        },
+        "string-input-0:1150:444":{
+            "type":"string",
+            "default":"cal_rate",
+            "description":"Name of resulting columns. The name will be appended with the iterator(s) (see below).",
+            "example":"cal_rate"
+        },
+        "string-input-0:1163":{
+            "type":"string",
+            "default":"2000",
+            "description":"Enter Description",
+            "example":"2000"
+        },
+        "string-input-0:1150:445":{
+            "type":"string",
+            "default":"cal_delta_(.*)\\[.*",
+            "description":"Pattern selecting the first group of columns. The resulting columns will be appended with the iterator, which is a Regex capture group embedded in the pattern. \nExample: \"sector_variable_(.*)\\[.*\" to use the last item before the unit as the iterator. \n\nNote that these patterns can also be used to identify flow variables. They work exactly the same, flow variables matching the name will be transformed into columns in the data (with the same value for every row).",
+            "example":"cal_delta_(.*)\\[.*"
+        },
+        "string-input-0:1146:460":{
+            "type":"string",
+            "default":"unit",
+            "description":"New unit for the output columns. Not changing this option or setting it to \"unit\" keeps the unit from the first column group.",
+            "example":"unit"
+        },
+        "string-input-0:1164":{
+            "type":"string",
+            "default":"2010",
+            "description":"Enter Description",
+            "example":"2010"
+        },
+        "string-input-0:1150:460":{
+            "type":"string",
+            "default":"%",
+            "description":"New unit for the output columns. Not changing this option or setting it to \"unit\" keeps the unit from the first column group.",
+            "example":"%"
+        },
+        "string-input-0:446":{
+            "type":"string",
+            "default":"lfs_fwaste_(.*)\\[.*",
+            "description":"Pattern selecting the group of columns to be calibrated. The columns in this group will be matched with columns from the first group using the iterator. The iterator is defined similarly to the pattern in group 1. \nExample: single column \"sector_demand_.*\", multiple columns \"sector_variable_(.*)\\[.*\"\n\nThis pattern can also optionally include a second iterator for combining each column from the first group with multiple columns from the second group.\nExample: \"sector_variable_(.*)_(.*)\\[.*\"\n\nNote that these patterns can also be used to identify flow variables. They work exactly the same, flow variables matching the name will be transformed into columns in the data (with the same value for every row).",
+            "example":"lfs_fwaste_(.*)\\[.*"
+        },
+        "column-filter-0:1151:652":{
+            "type":"object",
+            "properties":{
+                "columns":{
+                    "type":"array"
+                }
+            },
+            "description":"This filter is ther for testing purpose. It allows the user to test the regex pattern used in the Pattern section.",
+            "example":{
+                "columns":[
+                ]
+            }
+        },
+        "string-input-0:445":{
+            "type":"string",
+            "default":"cal_lfs_fwaste_(.*)\\[.*",
+            "description":"Pattern selecting the group of calibration columns. The resulting columns will be appended with the iterator, which is a Regex capture group embedded in the pattern. \nExample: \"sector_variable_(.*)\\[.*\" to use the last item before the unit as the iterator. \n\nNote that these patterns can also be used to identify flow variables. They work exactly the same, flow variables matching the name will be transformed into columns in the data (with the same value for every row).",
+            "example":"cal_lfs_fwaste_(.*)\\[.*"
+        },
+        "string-input-0:1151:445":{
+            "type":"string",
+            "default":"cal_lfs_fwaste_(.*)\\[.*",
+            "description":"Pattern selecting the first group of columns. The resulting columns will be appended with the iterator, which is a Regex capture group embedded in the pattern. \nExample: \"sector_variable_(.*)\\[.*\" to use the last item before the unit as the iterator. \n\nNote that these patterns can also be used to identify flow variables. They work exactly the same, flow variables matching the name will be transformed into columns in the data (with the same value for every row).",
+            "example":"cal_lfs_fwaste_(.*)\\[.*"
+        },
+        "string-input-0:1151:446":{
+            "type":"string",
+            "default":"lfs_fwaste_(.*)\\[.*",
+            "description":"Pattern selecting the second group of columns. The columns in this group will be matched with columns from the first group using the iterator. The iterator is defined similarly to the pattern in group 1. \nExample: single column \"sector_demand_.*\", multiple columns \"sector_variable_(.*)\\[.*\"\n\nThis pattern can also optionally include a second iterator for combining each column from the first group with multiple columns from the second group.\nExample: \"sector_variable_(.*)_(.*)\\[.*\"\n\nNote that these patterns can also be used to identify flow variables. They work exactly the same, flow variables matching the name will be transformed into columns in the data (with the same value for every row).",
+            "example":"lfs_fwaste_(.*)\\[.*"
+        },
+        "string-input-0:444":{
+            "type":"string",
+            "default":"fts_new-column",
+            "description":"Name of resulting columns. The name will be appended with the iterator(s) (see below).",
+            "example":"fts_new-column"
+        },
+        "column-filter-0:652":{
+            "type":"object",
+            "properties":{
+                "columns":{
+                    "type":"array",
+                    "items":{
+                        "type":"string",
+                        "default":"lfs_fwaste_wine[kcal]"
+                    }
+                }
+            },
+            "description":"This filter is ther for testing purpose. It allows the user to test the regex pattern used in the Pattern section.",
+            "example":{
+                "columns":[
+                    "lfs_fwaste_wine[kcal]",
+                    "lfs_fwaste_beer[kcal]"
+                ]
+            }
+        },
+        "column-filter-0:1150:652":{
+            "type":"object",
+            "properties":{
+                "columns":{
+                    "type":"array"
+                }
+            },
+            "description":"This filter is ther for testing purpose. It allows the user to test the regex pattern used in the Pattern section.",
+            "example":{
+                "columns":[
+                ]
+            }
+        }
+    }
+}
